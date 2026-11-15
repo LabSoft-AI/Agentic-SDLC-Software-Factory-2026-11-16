@@ -1,0 +1,7 @@
+# Module 1: Git — Assignments
+
+| # | Student | Repository | PR | Status | Reviewers |
+|---|---|---|---|---|---|
+| | | | | | |
+
+Legend: 🟢 Merged | ✅ Approved | 🟡 Open | 🔴 Changes Requested | ⬜ Not started
