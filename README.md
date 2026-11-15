@@ -39,7 +39,7 @@ together form the stations of the software factory.
 See the [Intro](modules/intro/README.md) for a deeper dive into these
 concepts.
 
-📚 **[Course Documentation](https://labsoft-ai.github.io/Agentic-SDLC-Software-Factory/)**
+📚 **[Course Documentation](https://labsoft-ai.github.io/Agentic-SDLC-Software-Factory-2026-11-16/)**
 
 ## Course Structure
 
@@ -125,8 +125,8 @@ stations of the factory, from requirements to a deployed result.
 Clone the repo and run the setup script:
 
 ```bash
-git clone https://github.com/LabSoft-AI/Agentic-SDLC-Software-Factory.git
-cd Agentic-SDLC-Software-Factory
+git clone https://github.com/LabSoft-AI/Agentic-SDLC-Software-Factory-2026-11-16.git
+cd Agentic-SDLC-Software-Factory-2026-11-16
 ./setup.sh
 source .venv/bin/activate
 ```

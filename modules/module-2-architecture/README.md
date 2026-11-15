@@ -267,7 +267,7 @@ set up the PlantUML hook there. Copy the hook script from the course repo
 
 ```bash
 # From your kata repo root
-COURSE_REPO="$HOME/Agentic-SDLC-Software-Factory"
+COURSE_REPO="$HOME/Agentic-SDLC-Software-Factory-2026-11-16"
 mkdir -p scripts/hooks
 cp "$COURSE_REPO/scripts/hooks/validate-plantuml.sh" scripts/hooks/
 chmod +x scripts/hooks/validate-plantuml.sh

@@ -26,7 +26,7 @@ html_theme_options = {
     "logo_alt": "LabSoft AI",
     "logo_height": 30,
     "logo_width": 257,
-    "github_url": "https://github.com/LabSoft-AI/Agentic-SDLC-Software-Factory/",
+    "github_url": "https://github.com/LabSoft-AI/Agentic-SDLC-Software-Factory-2026-11-16/",
     "footer_links": "",
 }
 
