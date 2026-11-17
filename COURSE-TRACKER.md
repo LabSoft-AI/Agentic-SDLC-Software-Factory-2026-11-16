@@ -8,6 +8,7 @@ Location: _TBD_ | Time: _TBD_
 |------|---------|-----------|------------|---------|-------------|-------|--------|
 | 🥇 | [@bagi002](https://github.com/bagi002/agentic-sdlc-blagoje-milosevic/pulls) ⚡ | 1 | 0 | 0 | 0 | 8 | 🔥 1 |
 | 🥈 | [@vasicka](https://github.com/vasicka/agentic-sdlc-isidora-vasic/pulls) | 1 | 0 | 0 | 0 | 5 | 🔥 1 |
+| 🥉 | [@Tornado200](https://github.com/Tornado200/agentic-sdlc-nemanja-vucic/pulls) | 0 | 0 | 0 | 1 | 1 | 🔥 1 |
 
 **Scoring:** 🟡 Open = 2 pts | ✅ Approved = 4 pts | 🟢 Merged = 5 pts | 🔴 Changes Requested = 1 pt
 **Streak:** Consecutive modules with a PR submitted 🔥
@@ -49,7 +50,8 @@ Project consultations (presence not mandatory)
 
 | # | Student | M1 PR | M2 PR | M3 PR | M4 PR | M5 PR | M6 PR |
 |---|---------|--- | --- | --- | --- | --- | ---|
-| 1 | [@bagi002](https://github.com/bagi002/agentic-sdlc-blagoje-milosevic) | [#7](https://github.com/bagi002/agentic-sdlc-blagoje-milosevic/pull/7) 🟢 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
-| 2 | [@vasicka](https://github.com/vasicka/agentic-sdlc-isidora-vasic) | [#2](https://github.com/vasicka/agentic-sdlc-isidora-vasic/pull/2) 🟢 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
+| 1 | [@Tornado200](https://github.com/Tornado200/agentic-sdlc-nemanja-vucic) | [#7](https://github.com/Tornado200/agentic-sdlc-nemanja-vucic/pull/7) 🔴 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
+| 2 | [@bagi002](https://github.com/bagi002/agentic-sdlc-blagoje-milosevic) | [#7](https://github.com/bagi002/agentic-sdlc-blagoje-milosevic/pull/7) 🟢 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
+| 3 | [@vasicka](https://github.com/vasicka/agentic-sdlc-isidora-vasic) | [#2](https://github.com/vasicka/agentic-sdlc-isidora-vasic/pull/2) 🟢 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
 
 Legend: 🟢 Merged | ✅ Approved | 🟡 Open | 🔴 Changes Requested | ⬜ Not started
