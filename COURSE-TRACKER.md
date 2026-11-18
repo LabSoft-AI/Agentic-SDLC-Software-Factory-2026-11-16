@@ -6,9 +6,20 @@ Location: _TBD_ | Time: _TBD_
 
 | Rank | Student | 🟢 Merged | ✅ Approved | 🟡 Open | 🔴 Rejected | Score | Streak |
 |------|---------|-----------|------------|---------|-------------|-------|--------|
-| 🥇 | [@bagi002](https://github.com/bagi002/agentic-sdlc-blagoje-milosevic/pulls) ⚡ | 1 | 0 | 0 | 0 | 8 | 🔥 1 |
-| 🥈 | [@vasicka](https://github.com/vasicka/agentic-sdlc-isidora-vasic/pulls) | 1 | 0 | 0 | 0 | 5 | 🔥 1 |
-| 🥉 | [@Tornado200](https://github.com/Tornado200/agentic-sdlc-nemanja-vucic/pulls) | 0 | 0 | 0 | 1 | 1 | 🔥 1 |
+| 🥇 | [@vasicka](https://github.com/vasicka/agentic-sdlc-isidora-vasic/pulls) | 1 | 1 | 0 | 0 | 9 | 🔥 2 |
+| 🥈 | [@bagi002](https://github.com/bagi002/agentic-sdlc-blagoje-milosevic/pulls) ⚡ | 1 | 0 | 0 | 0 | 8 | 🔥 1 |
+| 🥉 | [@Ouleg](https://github.com/Ouleg/agentic-sdlc-oleg-ponjevic/pulls) | 0 | 1 | 0 | 0 | 4 | 🔥 1 |
+| 🥉 | [@SrdjanV375](https://github.com/SrdjanV375/agentic-sdlc-srdjan-vujadinovic/pulls) | 0 | 1 | 0 | 0 | 4 | 🔥 1 |
+| 🥉 | [@Tornado200](https://github.com/Tornado200/agentic-sdlc-nemanja-vucic/pulls) | 0 | 1 | 0 | 0 | 4 | 🔥 1 |
+| 🥉 | [@milicarad03](https://github.com/milicarad03/agentic-sdlc-milica-radivojevic/pulls) | 0 | 1 | 0 | 0 | 4 | 🔥 1 |
+| 🥉 | [@natasa03](https://github.com/natasa03/agentic-sdlc-natasa-savic/pulls) | 0 | 1 | 0 | 0 | 4 | 🔥 1 |
+| 🥉 | [@resetarp](https://github.com/resetarp/agentic-sdlc-petar-resetar/pulls) | 0 | 1 | 0 | 0 | 4 | 🔥 1 |
+| 🥉 | [@vitomirmalinovic](https://github.com/vitomirmalinovic/agentic-sdlc-vitomir-malinovic/pulls) | 0 | 1 | 0 | 0 | 4 | 🔥 1 |
+| 10 | [@Milos341](https://github.com/Milos341/agentic-sdlc-milos-markovic/pulls) | 0 | 0 | 0 | 1 | 1 | 🔥 1 |
+| 10 | [@bosniciva](https://github.com/bosniciva/agentic-sdlc-iva-bosnic/pulls) | 0 | 0 | 0 | 1 | 1 | 🔥 1 |
+| 10 | [@damjanovicteodora36](https://github.com/damjanovicteodora36/agentic-sdlc-teodora-damjanovic/pulls) | 0 | 0 | 0 | 1 | 1 | 🔥 1 |
+| 10 | [@r4d0v1c](https://github.com/r4d0v1c/agentic-sdlc-luka-radovic/pulls) | 0 | 0 | 0 | 1 | 1 | 🔥 1 |
+| 10 | [@relunaria](https://github.com/relunaria/agentic-sdlc-arina-osinnikova/pulls) | 0 | 0 | 0 | 1 | 1 | 🔥 1 |
 
 **Scoring:** 🟡 Open = 2 pts | ✅ Approved = 4 pts | 🟢 Merged = 5 pts | 🔴 Changes Requested = 1 pt
 **Streak:** Consecutive modules with a PR submitted 🔥
@@ -50,8 +61,19 @@ Project consultations (presence not mandatory)
 
 | # | Student | M1 PR | M2 PR | M3 PR | M4 PR | M5 PR | M6 PR |
 |---|---------|--- | --- | --- | --- | --- | ---|
-| 1 | [@Tornado200](https://github.com/Tornado200/agentic-sdlc-nemanja-vucic) | [#7](https://github.com/Tornado200/agentic-sdlc-nemanja-vucic/pull/7) 🔴 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
-| 2 | [@bagi002](https://github.com/bagi002/agentic-sdlc-blagoje-milosevic) | [#7](https://github.com/bagi002/agentic-sdlc-blagoje-milosevic/pull/7) 🟢 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
-| 3 | [@vasicka](https://github.com/vasicka/agentic-sdlc-isidora-vasic) | [#2](https://github.com/vasicka/agentic-sdlc-isidora-vasic/pull/2) 🟢 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
+| 1 | [@Milos341](https://github.com/Milos341/agentic-sdlc-milos-markovic) | [#7](https://github.com/Milos341/agentic-sdlc-milos-markovic/pull/7) 🔴 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
+| 2 | [@Ouleg](https://github.com/Ouleg/agentic-sdlc-oleg-ponjevic) | [#7](https://github.com/Ouleg/agentic-sdlc-oleg-ponjevic/pull/7) ✅ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
+| 3 | [@SrdjanV375](https://github.com/SrdjanV375/agentic-sdlc-srdjan-vujadinovic) | [#8](https://github.com/SrdjanV375/agentic-sdlc-srdjan-vujadinovic/pull/8) ✅ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
+| 4 | [@Tornado200](https://github.com/Tornado200/agentic-sdlc-nemanja-vucic) | [#7](https://github.com/Tornado200/agentic-sdlc-nemanja-vucic/pull/7) ✅ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
+| 5 | [@bagi002](https://github.com/bagi002/agentic-sdlc-blagoje-milosevic) | [#7](https://github.com/bagi002/agentic-sdlc-blagoje-milosevic/pull/7) 🟢 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
+| 6 | [@bosniciva](https://github.com/bosniciva/agentic-sdlc-iva-bosnic) | [#7](https://github.com/bosniciva/agentic-sdlc-iva-bosnic/pull/7) 🔴 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
+| 7 | [@damjanovicteodora36](https://github.com/damjanovicteodora36/agentic-sdlc-teodora-damjanovic) | [#7](https://github.com/damjanovicteodora36/agentic-sdlc-teodora-damjanovic/pull/7) 🔴 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
+| 8 | [@milicarad03](https://github.com/milicarad03/agentic-sdlc-milica-radivojevic) | [#7](https://github.com/milicarad03/agentic-sdlc-milica-radivojevic/pull/7) ✅ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
+| 9 | [@natasa03](https://github.com/natasa03/agentic-sdlc-natasa-savic) | [#7](https://github.com/natasa03/agentic-sdlc-natasa-savic/pull/7) ✅ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
+| 10 | [@r4d0v1c](https://github.com/r4d0v1c/agentic-sdlc-luka-radovic) | [#7](https://github.com/r4d0v1c/agentic-sdlc-luka-radovic/pull/7) 🔴 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
+| 11 | [@relunaria](https://github.com/relunaria/agentic-sdlc-arina-osinnikova) | [#7](https://github.com/relunaria/agentic-sdlc-arina-osinnikova/pull/7) 🔴 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
+| 12 | [@resetarp](https://github.com/resetarp/agentic-sdlc-petar-resetar) | [#7](https://github.com/resetarp/agentic-sdlc-petar-resetar/pull/7) ✅ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
+| 13 | [@vasicka](https://github.com/vasicka/agentic-sdlc-isidora-vasic) | [#2](https://github.com/vasicka/agentic-sdlc-isidora-vasic/pull/2) 🟢 | [#8](https://github.com/vasicka/agentic-sdlc-isidora-vasic/pull/8) ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
+| 14 | [@vitomirmalinovic](https://github.com/vitomirmalinovic/agentic-sdlc-vitomir-malinovic) | [#6](https://github.com/vitomirmalinovic/agentic-sdlc-vitomir-malinovic/pull/6) ✅ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
 
 Legend: 🟢 Merged | ✅ Approved | 🟡 Open | 🔴 Changes Requested | ⬜ Not started
