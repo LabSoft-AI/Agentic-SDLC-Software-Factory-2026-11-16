@@ -41,6 +41,36 @@ concepts.
 
 📚 **[Course Documentation](https://labsoft-ai.github.io/Agentic-SDLC-Software-Factory-2026-11-16/)**
 
+## Everything as Code
+
+This course puts a lot of weight on the *everything as code* idea, and
+today more than ever. Agent configs, prompts, architecture documents
+(arc42 and the C4 model, with diagrams written in PlantUML), user stories,
+acceptance scenarios, tests, pipelines, and even the exercises are plain text
+files in Git, with documents written in Markdown. Plain text diffs, merges,
+and reviews like code, and any agent or tool can read it. Each file changes
+through an issue, a branch, a commit, and a pull request.
+
+The idea builds on *Documentation as Code*: treat documentation as a
+first-class artifact next to code and tests, with the same tools, reviews,
+and traceability. The approach is described in
+[Documentation as Code in Automotive System/Software Engineering](https://eejournal.ktu.lt/index.php/elt/article/view/33843)
+(Krunic, 2023), which reports on more than 150 engineers working this way
+for over a year on one project.
+
+AI agents produce artifacts faster than people can track them by hand. Git
+gives disciplined versioning of all SDLC artifacts over the lifetime of a
+project, so requirements, architecture, tests, code, and pipelines share one
+history linked by issue numbers. That avoids two failure modes:
+
+- **Versioning hell:** copies such as `design_final_v2` spread across wikis,
+  office files, and chat, with no way to tell which one is current.
+- **Integration hell:** artifacts that drift apart and are reconciled late,
+  when fixing the mismatch is expensive.
+
+Module 1 sets up this discipline (issues, branches, commit format, PRs,
+pre-commit hooks), and every later module builds on it.
+
 ## Course Structure
 
 The course has two parts:
@@ -143,6 +173,30 @@ This creates a Python virtual environment and installs:
   - Direct commits to `main` blocked (must use PRs)
   - Docker test: builds image and runs tests before commit (when `Dockerfile` exists)
 
+## Cohorts
+
+This repository is the template. Each cohort runs in its own repository
+created from it (see [Running a Cohort](#running-a-cohort)).
+
+### Current
+
+| Cohort | Start | Repository |
+|--------|-------|------------|
+| Agentic SDLC Software Factory 2026-11-16 | 2026-11-16 | [LabSoft-AI/Agentic-SDLC-Software-Factory-2026-11-16](https://github.com/LabSoft-AI/Agentic-SDLC-Software-Factory-2026-11-16) |
+
+### Finished
+
+| Cohort | Start | Repository |
+|--------|-------|------------|
+| SDP Powered by AI Agents 2026-04-06 | 2026-04-06 | [LabSoft-AI/SDP-Powered-by-AI-Agents-2026-04-06](https://github.com/LabSoft-AI/SDP-Powered-by-AI-Agents-2026-04-06) |
+
+SDP Powered by AI Agents (Software Development Processes Powered by AI Agents)
+was the first generation of this course.
+
+When a cohort is created, add it under **Current**. When it ends, move it to
+**Finished**. Only the cohort name, start date, and repository link belong
+here, never student data.
+
 ## Running a Cohort
 
 This repository is the **baseline** and is marked as a GitHub template
@@ -170,6 +224,7 @@ The instructor does this once per cohort.
    - `survey/COURSE-SURVEY.md` (survey form link)
 4. Update `github_url` in `docs/conf.py` and the course documentation link
    in this README to point to the cohort repo.
+5. Add the cohort to the [Cohorts](#cohorts) section of the baseline README.
 
 ### Students: your own repository
 
@@ -221,6 +276,7 @@ Step-by-step instructions are in
 
 ## References
 
+- [Documentation as Code in Automotive System/Software Engineering (Krunic, 2023)](https://eejournal.ktu.lt/index.php/elt/article/view/33843)
 - [Harness Engineering (Fowler)](https://martinfowler.com/articles/harness-engineering.html)
 - [Context Engineering (Fowler)](https://martinfowler.com/articles/exploring-gen-ai/context-engineering-coding-agents.html)
 - [Spec-Driven Development (Fowler)](https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html)
