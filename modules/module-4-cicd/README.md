@@ -25,7 +25,7 @@ By the end of this module you will:
 - Write a Dockerfile that builds and tests your kata
 - Design a pipeline that builds a Docker image and runs tests on GitHub Actions
 - Understand OIDC federation for keyless AWS deployments
-- Build a Kiro CLI agent that generates CI/CD pipelines for your kata
+- Build an agent that generates CI/CD pipelines for your kata
 
 ## 1. Theory: Continuous Integration and Continuous Delivery
 
@@ -368,13 +368,18 @@ Push your changes to a feature branch and verify:
 
 ### Goal
 
-Build a Kiro CLI agent that reads your kata's project structure and
+Build an agent that reads your kata's project structure and
 generates a Dockerfile and GitHub Actions CI pipeline.
 
 ### Step 1: Build the CI/CD Agent
 
 Create `.kiro/agents/cicd-agent.json` using the starter template at
 [starter/cicd-agent.json](starter/cicd-agent.json).
+
+> **Using OpenCode?** Copy the Markdown starter instead:
+> `cp modules/module-4-cicd/starter/cicd-agent.md .opencode/agents/`
+> Start OpenCode and pick `cicd-agent` with `/agents`. The task and rules below
+> are the same. See the [OpenCode harness guide](../../docs/opencode.md).
 
 The agent must:
 
@@ -432,7 +437,10 @@ Push to a feature branch and verify:
 ### Step 5: Commit via Git Agent
 
 ```bash
+# Kiro CLI
 kiro-cli --tui --agent git-agent
+
+# OpenCode: run `opencode`, then pick git-agent with /agents
 
 > Create a branch for the CI/CD issue
 > Commit the Dockerfile and workflow
@@ -453,7 +461,7 @@ gh pr merge --squash
 
 ### Acceptance Criteria
 
-- [ ] Agent config exists at `.kiro/agents/cicd-agent.json`
+- [ ] Agent config exists at `.kiro/agents/cicd-agent.json` (Kiro) or `.opencode/agents/cicd-agent.md` (OpenCode)
 - [ ] Agent detects kata language and build system
 - [ ] Agent generates a working Dockerfile
 - [ ] Agent generates `.github/workflows/ci.yml`

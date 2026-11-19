@@ -1,15 +1,22 @@
 # Module 4 Starter: CI/CD Agent
 
-Starter Kiro CLI agent configuration for Module 4.
+Starter agent configuration for Module 4, for Kiro CLI or OpenCode.
 
 ## Setup
 
-```bash
-# Copy to your repo
-cp cicd-agent.json /path/to/your-repo/.kiro/agents/
+Kiro CLI:
 
-# Start the agent
+```bash
+cp cicd-agent.json /path/to/your-repo/.kiro/agents/
 kiro-cli --tui --agent cicd-agent
+```
+
+OpenCode:
+
+```bash
+mkdir -p /path/to/your-repo/.opencode/agents
+cp cicd-agent.md /path/to/your-repo/.opencode/agents/
+opencode        # then pick cicd-agent with /agents
 ```
 
 ## What to Complete
@@ -24,7 +31,12 @@ The starter has TODO sections you must fill in:
 ## Usage
 
 ```bash
+# Kiro CLI
 kiro-cli --tui --agent cicd-agent
+
+# OpenCode
+opencode
+# then pick cicd-agent with /agents
 
 > Read my kata project structure
 > Generate a Dockerfile for building and testing

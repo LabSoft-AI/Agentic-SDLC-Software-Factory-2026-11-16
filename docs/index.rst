@@ -15,7 +15,7 @@ those agents together to build a real application.
 .. tip::
    This course is grounded in **Context Engineering**, **Harness Engineering**,
    and **Spec-Driven Development**. Each module teaches a software development
-   process, then has students encode it as context, harness, and loops around an agent (run in Kiro CLI or Pi).
+   process, then has students encode it as context, harness, and loops around an agent (run in Kiro CLI, Pi, or OpenCode).
 
 .. toctree::
    :maxdepth: 1
@@ -33,4 +33,5 @@ those agents together to build a real application.
    :maxdepth: 2
    :caption: Resources
 
+   opencode
    tracker

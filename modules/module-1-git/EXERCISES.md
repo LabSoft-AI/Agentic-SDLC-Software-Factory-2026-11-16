@@ -7,7 +7,9 @@
 - [ ] Git installed (`git --version`)
 - [ ] Python 3.12+ installed (`python3 --version`)
 - [ ] GitHub CLI installed (`gh --version`)
-- [ ] Kiro CLI installed (`kiro-cli --version`)
+- [ ] An agent harness installed (one of them):
+  - [ ] Kiro CLI (`kiro-cli --version`)
+  - [ ] OpenCode (`opencode --version`)
 - [ ] GitHub account created
 
 ### Step 1: GitHub CLI Authentication
@@ -47,12 +49,15 @@
 
 > **Agent:** `git-agent`
 > ```bash
+> # Kiro CLI
 > kiro-cli --tui --agent git-agent
+> # OpenCode (from your repo root, then pick git-agent with /agents)
+> opencode
 > ```
 
 ### Step 1: Build the Git Agent
 
-- [ ] Agent config created at `.kiro/agents/git-agent.json`
+- [ ] Agent config created at `.kiro/agents/git-agent.json` (Kiro) or `.opencode/agents/git-agent.md` (OpenCode)
 - [ ] Agent can create GitHub Issues with the template
 - [ ] Agent can create feature branches with correct prefix
 - [ ] Agent can commit with format: `#<issue> <type>(<scope>): <description>`

@@ -84,7 +84,7 @@ Context engineering is about being deliberate with all of these. Not just throwi
 **Notes:**
 This diagram shows the two levels. At the top, the LLM level: tokens in, likely tokens out. Below that, the agent level: input triggers the agent, which uses tools and calls the LLM in a loop.
 The bottom section is the context window — everything the LLM sees when it generates a response. System prompt sets the rules. Resources provide reference material. Tools define capabilities. User message is the task. Assistant messages are the conversation history. Tool call responses are results from previous tool use.
-When you build an agent in your harness (Kiro CLI or Pi), you're engineering this context. The agent config defines the system prompt, tools, and resources. That's context engineering.
+When you build an agent in your harness (Kiro CLI, Pi, or OpenCode), you're engineering this context. The agent config defines the system prompt, tools, and resources. That's context engineering.
 
 ---
 
@@ -94,13 +94,13 @@ When you build an agent in your harness (Kiro CLI or Pi), you're engineering thi
 - Context Engineering in Practice
 - **System Prompt** — who the agent is, what rules it follows
 - **Resources** — reference docs, templates, examples loaded at start
-- **Tools** — capabilities: `fs_read`, `fs_write`, `shell`, MCP servers
+- **Tools** — capabilities: `read`, `edit`, `shell`, MCP servers (Kiro names them `fs_read`, `fs_write`)
 - **User Message** — the task, with enough detail to act on
 - **Conversation History** — what the agent remembers from this session
 - **Tool Responses** — results from previous actions (file contents, CLI output)
 
 **Notes:**
-Every agent config you build in this course is a context engineering exercise, whether you run it in Kiro CLI or Pi. The system prompt, the reference resources, and the tool list are the three things you configure.
+Every agent config you build in this course is a context engineering exercise, whether you run it in Kiro CLI, Pi, or OpenCode. The system prompt, the reference resources, and the tool list are the three things you configure.
 The quality of your agent is directly proportional to the quality of its context. A vague system prompt produces vague results. A precise system prompt with templates and examples produces precise results.
 
 ---
@@ -258,7 +258,7 @@ Module 6 is individual work. You use all five agents together to complete a sele
 **Content:**
 - Prerequisites
 - **GitHub account** (free)
-- An agent harness installed: **Kiro CLI** (kiro.dev) or **Pi** (pi.dev)
+- An agent harness installed: **Kiro CLI** (kiro.dev), **Pi** (pi.dev), or **OpenCode** (opencode.ai)
 - **Python 3.12+**, **Node 20**, **AWS SAM CLI**
 - **Git** and **GitHub CLI** (`gh`)
 - Basic knowledge of Python, REST APIs, and React

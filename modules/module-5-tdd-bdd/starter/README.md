@@ -1,21 +1,30 @@
 # Module 5 Starter: TDD/BDD Agent
 
-Starter Kiro CLI agent configuration for Module 5.
+Starter agent configuration for Module 5, for Kiro CLI or OpenCode.
 
-This is the most complex agent in the course. It uses a **file URI prompt**
-(`file://./tdd-bdd-prompt.md`) to keep the prompt in a separate file —
+This is the most complex agent in the course. In Kiro it uses a **file URI
+prompt** (`file://./tdd-bdd-prompt.md`) to keep the prompt in a separate file,
 a best practice from the
 [Kiro CLI configuration reference](https://kiro.dev/docs/cli/custom-agents/configuration-reference/).
+OpenCode has no `file://` prompt, so the starter inlines the same prompt into
+`tdd-bdd-agent.md`.
 
 ## Setup
 
+Kiro CLI:
+
 ```bash
-# Copy both files to your repo
 cp tdd-bdd-agent.json /path/to/your-repo/.kiro/agents/
 cp tdd-bdd-prompt.md /path/to/your-repo/.kiro/agents/
-
-# Start the agent
 kiro-cli --agent tdd-bdd-agent
+```
+
+OpenCode:
+
+```bash
+mkdir -p /path/to/your-repo/.opencode/agents
+cp tdd-bdd-agent.md /path/to/your-repo/.opencode/agents/
+opencode        # then pick tdd-bdd-agent with /agents
 ```
 
 ## What to Complete
@@ -27,11 +36,11 @@ The prompt file (`tdd-bdd-prompt.md`) has TODO sections you must fill in:
 3. **Green Bar Pattern Rules** — When to use Fake It, Triangulate, Obvious Implementation
 4. **Refactoring Checklist** — What to check during the refactoring step
 5. **Commit Message Format** — How to format TDD commits with story references
-6. **postToolUse Hook** — Replace the placeholder hook in `tdd-bdd-agent.json` with a real hook that runs pytest after every file write
+6. **postToolUse Hook** — Replace the placeholder hook in `tdd-bdd-agent.json` with a real hook that runs pytest after every file write. OpenCode has no per-agent hook, so in `tdd-bdd-agent.md` add the exact pytest command to the prompt instead.
 
 ## Agent Configuration Features
 
-This agent uses advanced Kiro CLI features:
+In Kiro, this agent uses advanced features:
 
 - **`file://` prompt** — Prompt lives in a separate `.md` file for readability
 - **`resources`** — Auto-loads user stories from `docs/user-stories/`
@@ -41,10 +50,25 @@ This agent uses advanced Kiro CLI features:
 See the [Kiro CLI configuration reference](https://kiro.dev/docs/cli/custom-agents/configuration-reference/)
 for all available options.
 
+In OpenCode, the same ideas map to frontmatter and the prompt:
+
+- The prompt is the Markdown body.
+- `resources` have no auto-load, so the prompt names the story files to read.
+- `permissions` grant the tools.
+- `hooks.postToolUse` has no equivalent; put the test command in the prompt or
+  add an OpenCode plugin / pre-commit hook.
+
+See the [OpenCode harness guide](../../../docs/opencode.md) for the mapping.
+
 ## Usage
 
 ```bash
+# Kiro CLI
 kiro-cli --agent tdd-bdd-agent
+
+# OpenCode
+opencode
+# then pick tdd-bdd-agent with /agents
 
 > Read my user stories at docs/user-stories/
 > Start with the first BE scenario of the first core story

@@ -1,20 +1,25 @@
 # Git Agent Starter
 
-Starter Kiro CLI agent configuration for Module 1.
+Starter agent configuration for Module 1, for Kiro CLI or OpenCode.
 
 ## Usage
 
-Copy to your course repository:
+Copy to your course repository.
+
+Kiro CLI:
 
 ```bash
 mkdir -p .kiro/agents
 cp modules/module-1-git/starter/git-agent.json .kiro/agents/
+kiro-cli --tui --agent git-agent
 ```
 
-Start the agent:
+OpenCode:
 
 ```bash
-kiro-cli --tui --agent git-agent
+mkdir -p .opencode/agents
+cp modules/module-1-git/starter/git-agent.md .opencode/agents/
+opencode        # then pick git-agent with /agents
 ```
 
 ## What You Need to Complete

@@ -25,7 +25,7 @@ By the end of this module you will:
 - Write structured commit messages that link to issues
 - Create GitHub Issues and Pull Requests following a convention
 - Configure pre-commit hooks as a local quality safeguard
-- Build a Kiro CLI agent that automates Git operations
+- Build an agent that automates Git operations
 
 ## 1. Theory: Git Essentials
 
@@ -382,7 +382,7 @@ hook fails, fix the issue. The hook exists for a reason.
 ### Goal
 
 Set up your course repository manually, configure pre-commit hooks, and
-create a GitHub Issue for building your first Kiro CLI agent.
+create a GitHub Issue for building your first agent.
 
 ### Prerequisites
 
@@ -398,7 +398,9 @@ create a GitHub Issue for building your first Kiro CLI agent.
   sudo apt install gh
   ```
 
-- **Kiro CLI** installed — see https://kiro.dev
+- **An agent harness** installed (pick one):
+  - Kiro CLI: see https://kiro.dev
+  - OpenCode: `curl -fsSL https://opencode.ai/v2/install | bash`; see [OpenCode harness guide](../../docs/opencode.md)
 
 ### Step 1: Create a GitHub Account
 
@@ -587,9 +589,9 @@ workflow agent.
 
 ```bash
 gh issue create \
-  --title "[FEAT] Build Kiro CLI agent for Git workflow automation" \
+  --title "[FEAT] Build agent for Git workflow automation" \
   --body "## 📋 Description
-Build a Kiro CLI agent that automates Git workflow operations: creating
+Build an agent that automates Git workflow operations: creating
 GitHub Issues, commits, and Pull Requests using predefined templates.
 
 ## 🎯 Problem/Goal
@@ -597,14 +599,15 @@ Manually creating issues and PRs with the correct format is repetitive
 and error-prone. An agent should enforce the conventions automatically.
 
 ## 💡 Proposed Solution
-Create a Kiro CLI agent (\`.kiro/agents/git-agent.json\`) that:
+Create an agent (\`.kiro/agents/git-agent.json\` for Kiro CLI,
+\`.opencode/agents/git-agent.md\` for OpenCode) that:
 - Creates GitHub Issues using \`gh\` CLI with a predefined template
 - Creates feature branches with proper naming
 - Creates Pull Requests using \`gh\` CLI with a predefined template
 - Follows conventional commit format
 
 ## ✅ Acceptance Criteria
-- [ ] Agent config exists at \`.kiro/agents/git-agent.json\`
+- [ ] Agent config exists at \`.kiro/agents/git-agent.json\` (Kiro) or \`.opencode/agents/git-agent.md\` (OpenCode)
 - [ ] Agent creates issues with \`[TYPE]\` prefix and all sections (Description, Problem/Goal, Proposed Solution, Acceptance Criteria, Labels)
 - [ ] Issues include Acceptance Criteria with checkboxes (Definition of Done)
 - [ ] Agent creates branches with correct prefix (\`feature/\`, \`fix/\`, etc.)
@@ -637,6 +640,11 @@ Create `.kiro/agents/git-agent.json` — this is the agent you defined
 in the issue from Part 1. See
 [starter/git-agent.json](starter/git-agent.json) for a starter template.
 
+> **Using OpenCode?** Copy the Markdown starter instead:
+> `cp modules/module-1-git/starter/git-agent.md .opencode/agents/`
+> Start OpenCode and pick `git-agent` with `/agents`. The task and rules below
+> are the same. See the [OpenCode harness guide](../../docs/opencode.md).
+
 The agent must be able to:
 
 - Create GitHub Issues with the predefined template
@@ -647,7 +655,10 @@ The agent must be able to:
 Test it:
 
 ```bash
+# Kiro CLI
 kiro-cli --tui --agent git-agent
+
+# OpenCode: run `opencode` and pick git-agent with /agents
 
 # Verify it can create a properly formatted issue
 > Create a test issue for adding a hello world script
@@ -661,7 +672,10 @@ checkboxes.
 Use your agent to create one GitHub Issue per module exercise:
 
 ```bash
+# Kiro CLI
 kiro-cli --tui --agent git-agent
+
+# OpenCode: run `opencode` and pick git-agent with /agents
 
 > Create issues for the following course module exercises:
 >
@@ -754,3 +768,5 @@ After merge, verify:
 - [Pre-commit Framework](https://pre-commit.com/)
 - [GitHub CLI Manual](https://cli.github.com/manual/)
 - [Kiro CLI](https://kiro.dev)
+- [OpenCode](https://opencode.ai/docs/)
+- [OpenCode harness guide](../../docs/opencode.md)

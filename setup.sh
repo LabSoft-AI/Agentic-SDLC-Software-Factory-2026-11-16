@@ -51,6 +51,20 @@ echo "🪝 Installing pre-commit hooks..."
 pre-commit install
 echo "✅ Pre-commit hooks installed"
 
+# Agent harness check
+echo "🤖 Checking agent harnesses..."
+if command -v kiro-cli >/dev/null 2>&1; then
+    echo "✅ Kiro CLI found ($(kiro-cli --version 2>/dev/null | head -1))"
+else
+    echo "ℹ️  Kiro CLI not found. Install: https://kiro.dev"
+fi
+if command -v opencode >/dev/null 2>&1; then
+    echo "✅ OpenCode found ($(opencode --version 2>/dev/null | head -1))"
+else
+    echo "ℹ️  OpenCode not found. Install: curl -fsSL https://opencode.ai/v2/install | bash"
+fi
+echo "   You need at least one harness. See docs/opencode.md for the OpenCode path."
+
 echo ""
 echo "✅ Setup complete!"
 echo ""

@@ -21,7 +21,7 @@ By the end of this module you'll understand DDD, serverless, event-driven archit
 - Use the arc42 template to document software architecture
 - Use the C4 model to create diagrams at multiple zoom levels
 - Write PlantUML diagrams as code with pre-commit auto-generation
-- Build a Kiro CLI agent that generates architecture documents
+- Build an agent that generates architecture documents
 
 **Notes:**
 Same pattern as Module 1: learn the process, then automate it with an agent.
@@ -435,7 +435,7 @@ Write your first diagram and your first ADR for your chosen kata. This gives you
 **Type:** content
 **Content:**
 - Exercise Part 2: Architecture Agent
-- Build `.kiro/agents/architecture-agent.json`
+- Build `.kiro/agents/architecture-agent.json` (Kiro) or `.opencode/agents/architecture-agent.md` (OpenCode)
 - Agent generates arc42 chapters as separate `.md` files
 - Agent produces PlantUML C4 diagrams
 - Agent works chapter by chapter (waits for approval)
