@@ -67,8 +67,9 @@ Then edit `docs/conf.py` (project name, author, GitHub URL) and
 See `modules/module-6-project/starter/README.md` for detailed setup
 instructions.
 
-> **Optional:** Create a Sphinx agent (`.kiro/agents/sphinx-agent.json`)
-> to help you maintain the documentation site.
+> **Optional:** Create a Sphinx agent (`.kiro/agents/sphinx-agent.json` for
+> Kiro, `.opencode/agents/sphinx-agent.md` for OpenCode) to help you maintain
+> the documentation site.
 
 ### 5. Documentation CI/CD Pipeline
 

@@ -25,7 +25,7 @@ By the end of this module you will:
 - Decompose stories into Frontend, Backend, and Infrastructure sub-stories
 - Apply the Pareto principle to prioritize high-impact stories
 - Maintain full traceability from architecture → story → scenario → test
-- Build a Kiro CLI agent that automates story derivation
+- Build an agent that automates story derivation
 
 ## 1. Theory: From Architecture to User Stories
 
@@ -292,13 +292,19 @@ For each scenario, verify you can trace it back to:
 
 ### Goal
 
-Build a Kiro CLI agent that reads your architecture document and derives
+Build an agent that reads your architecture document and derives
 user stories with full decomposition and Pareto prioritization.
 
 ### Step 1: Build the Requirements Agent
 
 Create `.kiro/agents/requirements-agent.json` using the starter template
 at [starter/requirements-agent.json](starter/requirements-agent.json).
+
+> **Using OpenCode?** Copy the Markdown starter instead:
+> `cp modules/module-3-requirements/starter/requirements-agent.md .opencode/agents/`
+> Start OpenCode and pick `requirements-agent` with `/agents`. The task and
+> rules below are the same. See the
+> [OpenCode harness guide](../../docs/opencode.md).
 
 The agent must:
 
@@ -344,7 +350,10 @@ For each story bundle, check:
 ### Step 4: Commit via Git Agent
 
 ```bash
+# Kiro CLI
 kiro-cli --tui --agent git-agent
+
+# OpenCode: run `opencode`, then pick git-agent with /agents
 
 > Create a branch for the requirements issue
 > Commit the user stories
@@ -365,7 +374,7 @@ gh pr merge --squash
 
 ### Acceptance Criteria
 
-- [ ] Agent config exists at `.kiro/agents/requirements-agent.json`
+- [ ] Agent config exists at `.kiro/agents/requirements-agent.json` (Kiro) or `.opencode/agents/requirements-agent.md` (OpenCode)
 - [ ] Agent reads architecture and extracts domains
 - [ ] Agent generates prioritized story list with Pareto analysis
 - [ ] Agent writes story bundles with Original + FE + BE + INFRA

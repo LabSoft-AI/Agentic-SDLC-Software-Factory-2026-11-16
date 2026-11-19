@@ -57,12 +57,15 @@
 
 > **Agent:** `architecture-agent`
 > ```bash
+> # Kiro CLI
 > kiro-cli --tui --agent architecture-agent
+> # OpenCode (then pick architecture-agent with /agents)
+> opencode
 > ```
 
 ### Step 1: Build the Architecture Agent
 
-- [ ] Agent config created at `.kiro/agents/architecture-agent.json`
+- [ ] Agent config created at `.kiro/agents/architecture-agent.json` (Kiro) or `.opencode/agents/architecture-agent.md` (OpenCode)
 - [ ] Agent generates arc42 chapters as separate `.md` files
 - [ ] Agent produces PlantUML C4 diagrams (Context, Container, Component)
 - [ ] Agent works chapter by chapter (waits for approval before next)
@@ -70,7 +73,7 @@
 
 ### Step 2: Generate Kata Architecture
 
-- [ ] Started agent: `kiro-cli --tui --agent architecture-agent`
+- [ ] Started agent: `kiro-cli --tui --agent architecture-agent` (or `opencode`, then `architecture-agent`)
 - [ ] Described kata problem and tech stack to agent
 - [ ] Chapters generated and approved one by one:
   - [ ] `01-introduction-and-goals.md` — approved
@@ -102,7 +105,10 @@
 
 > **Switch agent:** `git-agent`
 > ```bash
+> # Kiro CLI
 > kiro-cli --tui --agent git-agent
+> # OpenCode (then pick git-agent with /agents)
+> opencode
 > ```
 
 - [ ] Feature branch created for architecture issue

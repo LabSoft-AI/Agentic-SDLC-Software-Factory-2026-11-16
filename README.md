@@ -3,8 +3,9 @@
 3-week master's course where students build a software factory: specialized
 agents that automate each phase of the software development
 lifecycle, wrapped in a harness and run in loops, then used together to
-build a real application. You can run the agents in either of two agent
-harnesses: [Kiro CLI](https://kiro.dev) or [Pi](https://pi.dev).
+build a real application. You can run the agents in one of three agent
+harnesses: [Kiro CLI](https://kiro.dev), [Pi](https://pi.dev), or
+[OpenCode](https://opencode.ai).
 
 A **software factory** is a repeatable pipeline where specifications go in
 and tested, deployed software comes out. Each phase of the lifecycle is a
@@ -33,7 +34,7 @@ The course is grounded in four emerging disciplines:
 
 Each module teaches a software development process, then has students
 encode it as context (agent config), harness (guides + sensors) and loops
-(retry until the sensors pass) around an agent (run in Kiro CLI or Pi). The five agents
+(retry until the sensors pass) around an agent (run in Kiro CLI, Pi, or OpenCode). The five agents
 together form the stations of the software factory.
 
 See the [Intro](modules/intro/README.md) for a deeper dive into these
@@ -80,6 +81,19 @@ The course has two parts:
    the way.
 2. **Module 6 (Individual)** — Each student uses all five agents together
    to complete a selected kata through the software factory.
+
+## Agent Harnesses
+
+The course supports three harnesses. Pick one and use it for every module.
+
+| Harness | Agent format | Module starters | Documentation |
+|---------|--------------|-----------------|---------------|
+| Kiro CLI | JSON in `.kiro/agents/` | `starter/*-agent.json` | [Kiro CLI docs](https://kiro.dev/docs/cli/) |
+| Pi | Preset file | See Pi docs | [Pi docs](https://pi.dev) |
+| OpenCode | Markdown in `.opencode/agents/` | `starter/*-agent.md` | [OpenCode harness guide](docs/opencode.md) |
+
+The context engineering is the same in all three. Only the file format and the
+tool names change.
 
 ## Modules
 
@@ -143,7 +157,7 @@ stations of the factory, from requirements to a deployed result.
 
 ## Prerequisites
 
-- An agent harness installed: [Kiro CLI](https://kiro.dev) or [Pi](https://pi.dev) (or both)
+- An agent harness installed: [Kiro CLI](https://kiro.dev), [Pi](https://pi.dev), or [OpenCode](https://opencode.ai)
 - Python 3.12+
 - Node 20+
 - Java (for PlantUML diagram generation)
@@ -172,6 +186,10 @@ This creates a Python virtual environment and installs:
   - Commit message format validation (`#<issue> <type>(<scope>): <description>`)
   - Direct commits to `main` blocked (must use PRs)
   - Docker test: builds image and runs tests before commit (when `Dockerfile` exists)
+
+OpenCode users: install it with
+`curl -fsSL https://opencode.ai/v2/install | bash` and follow the
+[OpenCode harness guide](docs/opencode.md).
 
 ## Cohorts
 

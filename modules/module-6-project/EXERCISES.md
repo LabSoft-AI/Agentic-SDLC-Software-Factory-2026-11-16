@@ -4,7 +4,7 @@
 
 ### Step 1: Update Requirements Agent
 
-- [ ] Updated `requirements-agent.json` to enforce Docker deployment
+- [ ] Updated `requirements-agent.json` to enforce Docker deployment (or `.opencode/agents/requirements-agent.md` for OpenCode)
 - [ ] INFRA stories reference Docker containers (not Lambda/DynamoDB)
 - [ ] Regenerated all INFRA scenarios with updated agent
 
@@ -46,7 +46,7 @@
 - [ ] Updated `docs/index.rst` with architecture chapters and user story files
 - [ ] Installed dependencies: `pip install -r docs/requirements.txt`
 - [ ] Sphinx site builds locally without errors: `cd docs && make html`
-- [ ] (Optional) Sphinx agent created at `.kiro/agents/sphinx-agent.json`
+- [ ] (Optional) Sphinx agent created at `.kiro/agents/sphinx-agent.json` (Kiro) or `.opencode/agents/sphinx-agent.md` (OpenCode)
 
 ### Step 3: Documentation CI/CD
 

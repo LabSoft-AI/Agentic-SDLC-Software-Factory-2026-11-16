@@ -1,15 +1,22 @@
 # Module 3 Starter: Requirements Agent
 
-Starter Kiro CLI agent configuration for Module 3.
+Starter agent configuration for Module 3, for Kiro CLI or OpenCode.
 
 ## Setup
 
-```bash
-# Copy to your repo
-cp requirements-agent.json /path/to/your-repo/.kiro/agents/
+Kiro CLI:
 
-# Start the agent
+```bash
+cp requirements-agent.json /path/to/your-repo/.kiro/agents/
 kiro-cli --tui --agent requirements-agent
+```
+
+OpenCode:
+
+```bash
+mkdir -p /path/to/your-repo/.opencode/agents
+cp requirements-agent.md /path/to/your-repo/.opencode/agents/
+opencode        # then pick requirements-agent with /agents
 ```
 
 ## What to Complete
@@ -24,7 +31,12 @@ The starter has TODO sections you must fill in:
 ## Usage
 
 ```bash
+# Kiro CLI
 kiro-cli --tui --agent requirements-agent
+
+# OpenCode
+opencode
+# then pick requirements-agent with /agents
 
 > Read my architecture at architecture/
 > List all user stories with Pareto prioritization

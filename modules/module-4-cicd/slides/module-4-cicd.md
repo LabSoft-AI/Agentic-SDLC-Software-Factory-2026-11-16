@@ -8,7 +8,7 @@ Agentic SDLC: Building a Software Factory
 
 **Notes:**
 Welcome to Module 4. Today we cover CI/CD — the automated quality gate that verifies every change before it reaches main.
-By the end of this module you'll understand GitHub Actions, Docker, and pipeline design — and you'll build a Kiro CLI agent that generates CI/CD pipelines for your kata.
+By the end of this module you'll understand GitHub Actions, Docker, and pipeline design — and you'll build an agent that generates CI/CD pipelines for your kata.
 
 ---
 
@@ -33,7 +33,7 @@ The lesson: CI is not optional in professional software development. It's the fo
 - Write a Dockerfile that builds and tests your kata
 - Design a pipeline: Build Docker image → Run tests → Report results
 - Understand OIDC federation for keyless AWS deployments
-- Build a Kiro CLI agent that generates CI/CD pipelines
+- Build an agent that generates CI/CD pipelines
 
 **Notes:**
 These are our learning objectives. The key deliverable is a working CI pipeline for your kata — a Dockerfile that builds and tests your code, and a GitHub Actions workflow that runs it on every push.
@@ -534,7 +534,7 @@ Part 7
 Exercise: Build the CI/CD Agent
 
 **Notes:**
-Now it's your turn. You'll build a Kiro CLI agent that generates Dockerfiles and GitHub Actions workflows for your kata.
+Now it's your turn. You'll build an agent that generates Dockerfiles and GitHub Actions workflows for your kata.
 
 ---
 
@@ -547,7 +547,7 @@ Now it's your turn. You'll build a Kiro CLI agent that generates Dockerfiles and
 - **Deliverables:**
   - `Dockerfile` — builds and tests your kata
   - `.github/workflows/ci.yml` — GitHub Actions pipeline
-  - `.kiro/agents/cicd-agent.json` — the agent config
+  - `.kiro/agents/cicd-agent.json` (Kiro) or `.opencode/agents/cicd-agent.md` (OpenCode), the agent config
 
 **Notes:**
 Same pattern as previous modules: understand manually first, then automate with an agent.
@@ -576,7 +576,7 @@ Test locally first. If docker build and docker run work on your machine, they'll
 **Type:** content
 **Content:**
 - Part 2: Build the CI/CD Agent
-- Create `.kiro/agents/cicd-agent.json` from the starter template
+- Create the agent from the starter template: `.kiro/agents/cicd-agent.json` (Kiro) or `.opencode/agents/cicd-agent.md` (OpenCode)
 - The agent must:
   - Detect kata language and build system
   - Generate a working Dockerfile
@@ -595,7 +595,9 @@ The agent should be able to read any kata project and generate the right pipelin
 **Content:**
 ```bash
 # Start the CI/CD agent
+# Kiro CLI
 kiro-cli --tui --agent cicd-agent
+# OpenCode: run `opencode`, then pick cicd-agent with /agents
 
 > Read my kata project structure
 > Generate a Dockerfile for building and testing
@@ -606,7 +608,9 @@ docker build -t kata-tests .
 docker run --rm kata-tests
 
 # Commit via Git agent
+# Kiro CLI
 kiro-cli --tui --agent git-agent
+# OpenCode: run `opencode`, then pick git-agent with /agents
 > Create a branch for the CI/CD issue
 > Commit the Dockerfile and workflow
 > Create a PR closing the CI/CD issue
@@ -622,7 +626,7 @@ This is the multi-agent workflow in action. Each agent is specialized. The CI/CD
 **Type:** content
 **Content:**
 - Acceptance Criteria
-- [ ] Agent config at `.kiro/agents/cicd-agent.json`
+- [ ] Agent config at `.kiro/agents/cicd-agent.json` (Kiro) or `.opencode/agents/cicd-agent.md` (OpenCode)
 - [ ] Agent detects kata language and build system
 - [ ] Working `Dockerfile` that builds and runs tests
 - [ ] Working `.github/workflows/ci.yml`

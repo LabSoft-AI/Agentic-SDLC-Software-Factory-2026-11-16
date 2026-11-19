@@ -21,7 +21,7 @@ By the end of this module you'll derive user stories from architecture, write te
 - Decompose stories into FE, BE, and INFRA sub-stories
 - Apply Pareto principle to prioritize high-impact stories
 - Maintain traceability: architecture → story → scenario → test
-- Build a Kiro CLI agent that automates story derivation
+- Build an agent that automates story derivation
 
 **Notes:**
 Same pattern as Modules 1 and 2: learn the process, then encode it as an agent.

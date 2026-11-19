@@ -1,20 +1,25 @@
 # Architecture Agent Starter
 
-Starter Kiro CLI agent configuration for Module 2.
+Starter agent configuration for Module 2, for Kiro CLI or OpenCode.
 
 ## Usage
 
-From your kata repo root:
+From your kata repo root.
+
+Kiro CLI:
 
 ```bash
 mkdir -p .kiro/agents
 cp modules/module-2-architecture/starter/architecture-agent.json .kiro/agents/
+kiro-cli --tui --agent architecture-agent
 ```
 
-Start the agent:
+OpenCode:
 
 ```bash
-kiro-cli --tui --agent architecture-agent
+mkdir -p .opencode/agents
+cp modules/module-2-architecture/starter/architecture-agent.md .opencode/agents/
+opencode        # then pick architecture-agent with /agents
 ```
 
 ## What You Need to Complete

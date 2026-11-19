@@ -26,7 +26,7 @@ By the end of this module you will:
 - Use the arc42 template to document software architecture
 - Use the C4 model to create architecture diagrams at multiple levels
 - Write PlantUML diagrams as code
-- Build a Kiro CLI agent that generates architecture documents
+- Build an agent that generates architecture documents
 
 ## 1. Theory: Software Architecture Principles
 
@@ -412,7 +412,7 @@ etc.). Follow the ADR format from section 1.9.
 
 ### Goal
 
-Build a Kiro CLI agent that generates arc42 architecture documentation
+Build an agent that generates arc42 architecture documentation
 chapter by chapter, with PlantUML C4 diagrams. Use it to architect your
 chosen kata.
 
@@ -420,6 +420,12 @@ chosen kata.
 
 Create `.kiro/agents/architecture-agent.json` using the starter template
 at [starter/architecture-agent.json](starter/architecture-agent.json).
+
+> **Using OpenCode?** Copy the Markdown starter instead:
+> `cp modules/module-2-architecture/starter/architecture-agent.md .opencode/agents/`
+> Start OpenCode and pick `architecture-agent` with `/agents`. The task and
+> rules below are the same. See the
+> [OpenCode harness guide](../../docs/opencode.md).
 
 The agent must:
 
@@ -470,7 +476,10 @@ Fix any PlantUML syntax errors manually.
 Use your Git agent from Module 1:
 
 ```bash
+# Kiro CLI
 kiro-cli --tui --agent git-agent
+
+# OpenCode: run `opencode`, then pick git-agent with /agents
 
 > Create a branch for the architecture issue
 > Commit the architecture documents
@@ -491,7 +500,7 @@ gh pr merge --squash
 
 ### Acceptance Criteria
 
-- [ ] Agent config exists at `.kiro/agents/architecture-agent.json`
+- [ ] Agent config exists at `.kiro/agents/architecture-agent.json` (Kiro) or `.opencode/agents/architecture-agent.md` (OpenCode)
 - [ ] Agent generates arc42 chapters as separate `.md` files
 - [ ] Agent produces PlantUML C4 diagrams (Context, Container, Component)
 - [ ] Agent works chapter by chapter (waits for approval)

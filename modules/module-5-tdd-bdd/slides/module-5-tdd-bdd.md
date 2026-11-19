@@ -32,7 +32,7 @@ Today, we have instant feedback — we can run tests in seconds. But paradoxical
 - Write testable acceptance criteria using GIVEN-WHEN-THEN
 - Apply Green Bar patterns: Fake It, Triangulate, Obvious Implementation
 - Know when and how to refactor safely
-- Build a Kiro CLI agent that implements your kata with strict TDD discipline
+- Build an agent that implements your kata with strict TDD discipline
 
 **Notes:**
 The key deliverable is a working TDD agent that implements your kata one test at a time. This is the most complex agent in the course because it needs to follow a strict cycle: write test, run, implement, run, refactor, commit.
@@ -377,7 +377,7 @@ Now the main event. You'll build the most complex agent in the course — one th
 
 **Notes:**
 This is the exact cycle your agent must follow. No shortcuts. Write one test, confirm it fails, implement, confirm it passes, check for regressions, refactor, commit. Then ask which scenario to do next.
-The agent uses a file URI prompt — the prompt lives in a separate markdown file. This is a best practice from the Kiro CLI docs for complex agents.
+In Kiro, the agent uses a file URI prompt: the prompt lives in a separate markdown file, a best practice from the Kiro CLI docs for complex agents. OpenCode has no file URI prompt, so the starter inlines it in `tdd-bdd-agent.md`.
 
 ---
 
@@ -403,7 +403,7 @@ The agent uses a file URI prompt — the prompt lives in a separate markdown fil
 ```
 
 **Notes:**
-This agent uses advanced Kiro CLI features. The prompt is in a separate file for readability. Resources auto-load user stories. The postToolUse hook runs pytest after every file write — so the agent gets immediate feedback on whether tests pass.
+In Kiro, the prompt is in a separate file for readability, resources auto-load user stories, and the postToolUse hook runs pytest after every file write. OpenCode has no per-agent hook, so the OpenCode starter puts the pytest command in the prompt instead.
 Students need to complete the TODO sections in the prompt file: test naming convention, GIVEN-WHEN-THEN template, Green Bar pattern rules, refactoring checklist, and commit format.
 
 ---
@@ -426,7 +426,9 @@ This agent has six TODO sections — more than any previous module. That's becau
 **Content:**
 ```bash
 # Start the TDD/BDD agent
+# Kiro CLI
 kiro-cli --agent tdd-bdd-agent
+# OpenCode: run `opencode`, then pick tdd-bdd-agent with /agents
 
 > Read my user stories at docs/user-stories/
 > Start with the first BE scenario
@@ -448,7 +450,7 @@ The workflow: start the agent, point it at your user stories, and let it impleme
 - Acceptance Criteria
 - [ ] Requirements agent updated for Docker-based INFRA
 - [ ] INFRA stories pass (Docker build + test run)
-- [ ] Agent config at `.kiro/agents/tdd-bdd-agent.json`
+- [ ] Agent config at `.kiro/agents/tdd-bdd-agent.json` (Kiro) or `.opencode/agents/tdd-bdd-agent.md` (OpenCode)
 - [ ] Agent writes ONE test at a time
 - [ ] Agent confirms RED before implementing
 - [ ] Agent confirms GREEN after implementing

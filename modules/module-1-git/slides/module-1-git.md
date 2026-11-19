@@ -8,7 +8,7 @@ Agentic SDLC: Building a Software Factory
 
 **Notes:**
 Welcome to Module 1. Today we cover Git — the foundation of every collaborative software project.
-By the end of this module you'll understand Git workflows, conventions, and you'll build your first Kiro CLI agent that automates Git operations.
+By the end of this module you'll understand Git workflows, conventions, and you'll build your first agent that automates Git operations.
 
 ---
 
@@ -33,7 +33,7 @@ Today, Git is not optional in professional software development. GitHub alone ho
 - Write structured commit messages that link to issues
 - Create GitHub Issues and Pull Requests following a convention
 - Configure pre-commit hooks as a local quality safeguard
-- Build a Kiro CLI agent that automates Git operations
+- Build an agent that automates Git operations
 
 **Notes:**
 These are our learning objectives. Notice the last one — you're not just learning Git, you're building an AI agent that does Git operations for you.
@@ -353,7 +353,7 @@ Now the fun part. You'll build the Git agent and use it to automate everything y
 **Type:** content
 **Content:**
 - Exercise Part 2: Use Your Agent
-- Step 1: Build the Git agent (`.kiro/agents/git-agent.json`)
+- Step 1: Build the Git agent (`.kiro/agents/git-agent.json` for Kiro, `.opencode/agents/git-agent.md` for OpenCode)
 - Step 2: Use agent to create issues for Modules 2–5
 - Step 3: Use agent to create a feature branch
 - Step 4: Create course README with progress checkboxes

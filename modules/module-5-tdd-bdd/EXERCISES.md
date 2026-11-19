@@ -4,7 +4,7 @@
 
 ### Step 1: Update Requirements Agent
 
-- [ ] Updated `requirements-agent.json` to generate Docker-based INFRA stories
+- [ ] Updated `requirements-agent.json` (Kiro) or `.opencode/agents/requirements-agent.md` (OpenCode) to generate Docker-based INFRA stories
 - [ ] INFRA stories reference Docker containers (not Lambda/DynamoDB)
 - [ ] Deployment target is `docker build` + `docker run`
 
@@ -56,13 +56,13 @@
 
 ### Step 1: Build the TDD/BDD Agent
 
-- [ ] Copied `tdd-bdd-agent.json` and `tdd-bdd-prompt.md` to `.kiro/agents/`
+- [ ] Copied `tdd-bdd-agent.json` and `tdd-bdd-prompt.md` to `.kiro/agents/`, or `tdd-bdd-agent.md` to `.opencode/agents/` (OpenCode)
 - [ ] Completed TODO: Test Naming Convention
 - [ ] Completed TODO: GIVEN-WHEN-THEN Test Template
 - [ ] Completed TODO: Green Bar Pattern Rules
 - [ ] Completed TODO: Refactoring Checklist
 - [ ] Completed TODO: Commit Message Format
-- [ ] Completed TODO: postToolUse Hook (runs pytest after writes)
+- [ ] Completed TODO: postToolUse Hook (runs pytest after writes). OpenCode has no hook, so add the test command to the prompt instead.
 
 ### Step 2: Multi-Agent Workflow (at least one complete story)
 
@@ -70,7 +70,10 @@ Pick one user story and follow this loop:
 
 > **Switch agent:** `git-agent`
 > ```bash
+> # Kiro CLI
 > kiro-cli --agent git-agent
+> # OpenCode (then pick git-agent with /agents)
+> opencode
 > ```
 
 - [ ] **Git agent:** took highest priority unimplemented story
@@ -79,7 +82,10 @@ Pick one user story and follow this loop:
 
 > **Switch agent:** `tdd-bdd-agent`
 > ```bash
+> # Kiro CLI
 > kiro-cli --agent tdd-bdd-agent
+> # OpenCode (then pick tdd-bdd-agent with /agents)
+> opencode
 > ```
 
 - [ ] **TDD/BDD agent:** read the issue and user story scenarios
@@ -93,7 +99,10 @@ Pick one user story and follow this loop:
 
 > **Switch agent:** `git-agent`
 > ```bash
+> # Kiro CLI
 > kiro-cli --agent git-agent
+> # OpenCode (then pick git-agent with /agents)
+> opencode
 > ```
 
 - [ ] **Git agent:** created PR closing the issue

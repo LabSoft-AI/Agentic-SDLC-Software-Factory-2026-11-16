@@ -20,7 +20,7 @@ By the end of this module you will:
 - Explain why AI agents need engineered context and constraints to follow a
   software development process reliably
 - Describe the six parts of an agent's context window and how an agent
-  config controls them in your harness (Kiro CLI or Pi)
+  config controls them in your harness (Kiro CLI, Pi, or OpenCode)
 - Distinguish guides from sensors, and computational controls from
   inferential ones
 - Describe an agent loop with a goal, a sensor, an exit condition, and an
@@ -97,7 +97,7 @@ sees when it generates a response.
 |------|------|
 | System prompt | Who the agent is and which rules it follows |
 | Resources | Reference docs, templates, and examples loaded at start |
-| Tools | Capabilities such as `fs_read`, `fs_write`, `shell`, MCP servers |
+| Tools | Capabilities such as `read`, `edit`, `shell`, MCP servers. Kiro names them `fs_read` and `fs_write`. |
 | User message | The task, with enough detail to act on |
 | Conversation history | What the agent remembers from this session |
 | Tool responses | Results of earlier actions (file contents, CLI output) |
@@ -105,15 +105,18 @@ sees when it generates a response.
 ### 3.3 In this course
 
 Every agent config you build is a context engineering exercise. The course
-supports two agent harnesses, [Kiro CLI](https://kiro.dev) and
-[Pi](https://pi.dev), and in both you configure the same three things:
+supports three agent harnesses: [Kiro CLI](https://kiro.dev),
+[Pi](https://pi.dev), and [OpenCode](https://opencode.ai). In all three you
+configure the same three things:
 
 - The system prompt.
 - The resources, which load reference docs.
 - The tools, which grant capabilities.
 
-The file format differs (Kiro uses an agent JSON config, Pi uses a preset),
-but the context engineering is the same.
+The file format differs. Kiro uses an agent JSON config, Pi uses a preset, and
+OpenCode uses a Markdown file in `.opencode/agents/`. The context engineering is
+the same. The [OpenCode harness guide](../../docs/opencode.md) covers the
+mapping in detail.
 
 A vague system prompt produces vague results. A precise prompt with
 templates and examples produces precise results.
@@ -255,7 +258,7 @@ agents to complete a selected kata.
 ### 7.2 Prerequisites
 
 - GitHub account (free)
-- An agent harness installed: Kiro CLI ([kiro.dev](https://kiro.dev)) or Pi ([pi.dev](https://pi.dev))
+- An agent harness installed: Kiro CLI ([kiro.dev](https://kiro.dev)), Pi ([pi.dev](https://pi.dev)), or OpenCode ([opencode.ai](https://opencode.ai))
 - Python 3.12+, Node 20, AWS SAM CLI
 - Git and GitHub CLI (`gh`)
 - Basic knowledge of Python, REST APIs, and React
@@ -298,4 +301,5 @@ destination.
 - [Architecting an Autonomous Software Factory: End-to-End Agentic Delivery (Google codelab)](https://codelabs.developers.google.com/codelabs/software-factory-end-to-end)
 - [Kiro CLI](https://kiro.dev/docs/cli/)
 - [Pi](https://pi.dev)
+- [OpenCode](https://opencode.ai/docs/)
 - Slides: [slides/intro.md](slides/intro.md)

@@ -27,7 +27,7 @@ By the end of this module you will:
 - Write testable acceptance criteria using GIVEN-WHEN-THEN
 - Apply Green Bar patterns: Fake It, Triangulate, Obvious Implementation
 - Know when and how to refactor safely
-- Build a Kiro CLI agent that implements your kata using strict TDD discipline
+- Build an agent that implements your kata using strict TDD discipline
 
 ## 1. Theory: Test-Driven Development
 
@@ -347,18 +347,25 @@ git commit -m "#<issue> feat(<scope>): implement <scenario description>"
 
 ### Goal
 
-Build a Kiro CLI agent that implements your kata using strict TDD
+Build an agent that implements your kata using strict TDD
 discipline — one test at a time, RED-GREEN-REFACTOR, commit on GREEN.
 
 This is the most complex agent in the course. Use the
 [Kiro CLI agent creation guide](https://kiro.dev/docs/cli/custom-agents/creating/)
 and [configuration reference](https://kiro.dev/docs/cli/custom-agents/configuration-reference/)
-to build it.
+to build it. OpenCode users: the Markdown starter already has the full prompt;
+see the [OpenCode harness guide](../../docs/opencode.md).
 
 ### Step 1: Build the TDD/BDD Agent
 
 Create `.kiro/agents/tdd-bdd-agent.json` using the starter template at
 [starter/tdd-bdd-agent.json](starter/tdd-bdd-agent.json).
+
+> **Using OpenCode?** Copy the Markdown starter instead:
+> `cp modules/module-5-tdd-bdd/starter/tdd-bdd-agent.md .opencode/agents/`
+> Start OpenCode and pick `tdd-bdd-agent` with `/agents`. The task and rules
+> below are the same. See the
+> [OpenCode harness guide](../../docs/opencode.md).
 
 The agent must follow this strict cycle for each scenario:
 
@@ -416,10 +423,19 @@ Example hook to run tests after every file write:
 }
 ```
 
+> **OpenCode equivalent:** tools go in `permissions` frontmatter, resources are
+> named in the prompt, and there is no per-agent `postToolUse` hook. Put the
+> pytest command in the prompt, or add an OpenCode plugin / git pre-commit hook.
+> The `tdd-bdd-agent.md` starter already does this. See the
+> [OpenCode harness guide](../../docs/opencode.md).
+
 ### Step 3: Use the Agent
 
 ```bash
+# Kiro CLI
 kiro-cli --agent tdd-bdd-agent
+
+# OpenCode: run `opencode`, then pick tdd-bdd-agent with /agents
 
 > Read my user stories at docs/user-stories/
 > Start with the first BE scenario of the first core story
@@ -444,6 +460,9 @@ This is the workflow you should follow for each user story:
 ![Multi-Agent Workflow](./diagrams/multi-agent-workflow.svg)
 
 **Example session:**
+
+> In OpenCode, replace each `kiro-cli --agent <name>` line with `opencode` and
+> pick the agent with `/agents`. The prompts are the same.
 
 ```bash
 # 1. Git agent — create issue and branch
@@ -480,7 +499,10 @@ git log --oneline
 ### Step 5: Commit via Git Agent
 
 ```bash
+# Kiro CLI
 kiro-cli --agent git-agent
+
+# OpenCode: run `opencode`, then pick git-agent with /agents
 
 > Create a branch for the TDD implementation issue
 > Create a PR closing the issue
@@ -502,7 +524,7 @@ gh pr merge --squash
 
 - [ ] Requirements agent updated to generate Docker-based INFRA stories
 - [ ] INFRA stories pass (Docker build + test run)
-- [ ] Agent config exists at `.kiro/agents/tdd-bdd-agent.json`
+- [ ] Agent config exists at `.kiro/agents/tdd-bdd-agent.json` (Kiro) or `.opencode/agents/tdd-bdd-agent.md` (OpenCode)
 - [ ] Agent reads user stories and follows INFRA → BE → FE → E2E order
 - [ ] Agent writes ONE test at a time
 - [ ] Agent confirms RED before implementing
@@ -524,5 +546,7 @@ gh pr merge --squash
 - [pytest Documentation](https://docs.pytest.org/)
 - [pytest-bdd](https://pytest-bdd.readthedocs.io/)
 - [Kiro CLI Agent Creation](https://kiro.dev/docs/cli/custom-agents/creating/)
+- [OpenCode agents](https://opencode.ai/docs/agents/)
+- [OpenCode harness guide](../../docs/opencode.md)
 - [Kiro CLI Agent Configuration Reference](https://kiro.dev/docs/cli/custom-agents/configuration-reference/)
 - [Coding Dojo Kata Catalogue](https://codingdojo.org/kata/)

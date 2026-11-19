@@ -37,12 +37,15 @@
 
 > **Agent:** `cicd-agent`
 > ```bash
+> # Kiro CLI
 > kiro-cli --tui --agent cicd-agent
+> # OpenCode (then pick cicd-agent with /agents)
+> opencode
 > ```
 
 ### Step 1: Build the CI/CD Agent
 
-- [ ] Agent config created at `.kiro/agents/cicd-agent.json`
+- [ ] Agent config created at `.kiro/agents/cicd-agent.json` (Kiro) or `.opencode/agents/cicd-agent.md` (OpenCode)
 - [ ] Agent detects kata language and build system
 - [ ] Agent generates a working Dockerfile
 - [ ] Agent generates `.github/workflows/ci.yml`
@@ -52,7 +55,7 @@
 
 ### Step 2: Generate Pipeline Files
 
-- [ ] Started agent: `kiro-cli --tui --agent cicd-agent`
+- [ ] Started agent: `kiro-cli --tui --agent cicd-agent` (or `opencode`, then `cicd-agent`)
 - [ ] Agent read project structure
 - [ ] Dockerfile generated and approved
 - [ ] CI workflow generated and approved
@@ -78,7 +81,10 @@
 
 > **Switch agent:** `git-agent`
 > ```bash
+> # Kiro CLI
 > kiro-cli --tui --agent git-agent
+> # OpenCode (then pick git-agent with /agents)
+> opencode
 > ```
 
 - [ ] Feature branch created for CI/CD issue

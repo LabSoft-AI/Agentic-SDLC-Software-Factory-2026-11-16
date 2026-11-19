@@ -40,12 +40,15 @@
 
 > **Agent:** `requirements-agent`
 > ```bash
+> # Kiro CLI
 > kiro-cli --tui --agent requirements-agent
+> # OpenCode (then pick requirements-agent with /agents)
+> opencode
 > ```
 
 ### Step 1: Build the Requirements Agent
 
-- [ ] Agent config created at `.kiro/agents/requirements-agent.json`
+- [ ] Agent config created at `.kiro/agents/requirements-agent.json` (Kiro) or `.opencode/agents/requirements-agent.md` (OpenCode)
 - [ ] Agent reads architecture and extracts domains
 - [ ] Agent generates prioritized story list with Pareto analysis
 - [ ] Agent writes story bundles (Original + FE + BE + INFRA)
@@ -56,7 +59,7 @@
 
 ### Step 2: Generate Stories
 
-- [ ] Started agent: `kiro-cli --tui --agent requirements-agent`
+- [ ] Started agent: `kiro-cli --tui --agent requirements-agent` (or `opencode`, then `requirements-agent`)
 - [ ] Provided architecture document path
 - [ ] Received prioritized story list
 - [ ] Core stories generated and approved:
@@ -80,7 +83,10 @@
 
 > **Switch agent:** `git-agent`
 > ```bash
+> # Kiro CLI
 > kiro-cli --tui --agent git-agent
+> # OpenCode (then pick git-agent with /agents)
+> opencode
 > ```
 
 - [ ] Feature branch created for requirements issue
