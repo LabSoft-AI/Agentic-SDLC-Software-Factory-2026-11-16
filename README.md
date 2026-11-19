@@ -277,6 +277,63 @@ repository**, which you create in Module 1.
 Step-by-step instructions are in
 [Module 1: Git](modules/module-1-git/README.md).
 
+### Students: keep your repository up to date
+
+The cohort repo gets fixes and new material during the course. Your repo was
+created separately, so it shares no git history with the cohort repo or the
+baseline. A merge does not work. Use `git cherry-pick`.
+
+1. Add the cohort repo as a remote, once:
+
+   ```bash
+   git remote add cohort https://github.com/LabSoft-AI/Agentic-SDLC-Software-Factory-2026-11-16.git
+   git fetch cohort
+   ```
+
+   For changes that land in the baseline, add it too:
+
+   ```bash
+   git remote add baseline https://github.com/LabSoft-AI/Agentic-SDLC-Software-Factory.git
+   git fetch baseline
+   ```
+
+2. Find the commit to copy. Ask the instructor for the SHA, or list recent
+   commits:
+
+   ```bash
+   git log --oneline cohort/main -10
+   ```
+
+3. Create a branch and cherry-pick:
+
+   ```bash
+   git checkout -b chore/cohort-updates
+   git cherry-pick -x <sha>
+   ```
+
+   For several commits, pass them in order:
+   `git cherry-pick -x <sha1> <sha2>`. The `-x` flag records the source commit
+   in the message, so your history shows where the change came from.
+
+4. Resolve conflicts. Keep your own work and take the course changes, then:
+
+   ```bash
+   git add <files>
+   git cherry-pick --continue
+   ```
+
+   To start over:
+
+   ```bash
+   git cherry-pick --abort
+   ```
+
+5. Push the branch and open a PR in your repo. Do not push straight to `main`.
+
+   ```bash
+   git push -u origin chore/cohort-updates
+   ```
+
 ### Keep the baseline clean (instructor)
 
 - Never commit student names, GitHub handles, grades, or survey results to
