@@ -16,7 +16,7 @@
 | 12 | @r4d0v1c | [agentic-sdlc-luka-radovic](https://github.com/r4d0v1c/agentic-sdlc-luka-radovic) | — | ⬜ Not started | — |
 | 13 | @relunaria | [agentic-sdlc-arina-osinnikova](https://github.com/relunaria/agentic-sdlc-arina-osinnikova) | — | ⬜ Not started | — |
 | 14 | @resetarp | [agentic-sdlc-petar-resetar](https://github.com/resetarp/agentic-sdlc-petar-resetar) | — | ⬜ Not started | — |
-| 15 | @vasicka | [agentic-sdlc-isidora-vasic](https://github.com/vasicka/agentic-sdlc-isidora-vasic) | — | ⬜ Not started | — |
+| 15 | @vasicka | [agentic-sdlc-isidora-vasic](https://github.com/vasicka/agentic-sdlc-isidora-vasic) | [#9](https://github.com/vasicka/agentic-sdlc-isidora-vasic/pull/9) | 🟡 Open | — |
 | 16 | @vitomirmalinovic | [agentic-sdlc-vitomir-malinovic](https://github.com/vitomirmalinovic/agentic-sdlc-vitomir-malinovic) | — | ⬜ Not started | — |
 
 Legend: 🟢 Merged | ✅ Approved | 🟡 Open | 🔴 Changes Requested | ⬜ Not started
