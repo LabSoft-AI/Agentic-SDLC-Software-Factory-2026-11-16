@@ -11,11 +11,11 @@
 | 7 | @bosniciva | [agentic-sdlc-iva-bosnic](https://github.com/bosniciva/agentic-sdlc-iva-bosnic) | [#7](https://github.com/bosniciva/agentic-sdlc-iva-bosnic/pull/7) | 🟢 Merged | @momokrunic |
 | 8 | @damjanovicteodora36 | [agentic-sdlc-teodora-damjanovic](https://github.com/damjanovicteodora36/agentic-sdlc-teodora-damjanovic) | [#7](https://github.com/damjanovicteodora36/agentic-sdlc-teodora-damjanovic/pull/7) | 🟢 Merged | @momokrunic |
 | 9 | @lukatodor | [agentic-sdlc-luka-todor](https://github.com/lukatodor/agentic-sdlc-luka-todor) | [#9](https://github.com/lukatodor/agentic-sdlc-luka-todor/pull/9) | 🟢 Merged | @momokrunic |
-| 10 | @marija072 | [agentic-sdlc-marija-poznic](https://github.com/marija072/agentic-sdlc-marija-poznic) | [#7](https://github.com/marija072/agentic-sdlc-marija-poznic/pull/7) | ✅ Approved | @momokrunic |
+| 10 | @marija072 | [agentic-sdlc-marija-poznic](https://github.com/marija072/agentic-sdlc-marija-poznic) | [#7](https://github.com/marija072/agentic-sdlc-marija-poznic/pull/7) | 🟢 Merged | @momokrunic |
 | 11 | @milicarad03 | [agentic-sdlc-milica-radivojevic](https://github.com/milicarad03/agentic-sdlc-milica-radivojevic) | [#7](https://github.com/milicarad03/agentic-sdlc-milica-radivojevic/pull/7) | 🟢 Merged | @momokrunic |
 | 12 | @natasa03 | [agentic-sdlc-natasa-savic](https://github.com/natasa03/agentic-sdlc-natasa-savic) | [#7](https://github.com/natasa03/agentic-sdlc-natasa-savic/pull/7) | ✅ Approved | @momokrunic |
 | 13 | @r4d0v1c | [agentic-sdlc-luka-radovic](https://github.com/r4d0v1c/agentic-sdlc-luka-radovic) | [#7](https://github.com/r4d0v1c/agentic-sdlc-luka-radovic/pull/7) | 🟢 Merged | @momokrunic |
-| 14 | @relunaria | [agentic-sdlc-arina-osinnikova](https://github.com/relunaria/agentic-sdlc-arina-osinnikova) | [#7](https://github.com/relunaria/agentic-sdlc-arina-osinnikova/pull/7) | ✅ Approved | @momokrunic |
+| 14 | @relunaria | [agentic-sdlc-arina-osinnikova](https://github.com/relunaria/agentic-sdlc-arina-osinnikova) | [#7](https://github.com/relunaria/agentic-sdlc-arina-osinnikova/pull/7) | 🟢 Merged | @momokrunic |
 | 15 | @resetarp | [agentic-sdlc-petar-resetar](https://github.com/resetarp/agentic-sdlc-petar-resetar) | [#7](https://github.com/resetarp/agentic-sdlc-petar-resetar/pull/7) | 🟢 Merged | @momokrunic |
 | 16 | @vasicka | [agentic-sdlc-isidora-vasic](https://github.com/vasicka/agentic-sdlc-isidora-vasic) | [#2](https://github.com/vasicka/agentic-sdlc-isidora-vasic/pull/2) | 🟢 Merged | @momokrunic |
 | 17 | @vitomirmalinovic | [agentic-sdlc-vitomir-malinovic](https://github.com/vitomirmalinovic/agentic-sdlc-vitomir-malinovic) | [#6](https://github.com/vitomirmalinovic/agentic-sdlc-vitomir-malinovic/pull/6) | 🟢 Merged | @momokrunic |
