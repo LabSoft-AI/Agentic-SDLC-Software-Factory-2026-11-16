@@ -5,7 +5,7 @@
 | 1 | @Milos341 | [agentic-sdlc-milos-markovic](https://github.com/Milos341/agentic-sdlc-milos-markovic) | — | ⬜ Not started | — |
 | 2 | @Ouleg | [agentic-sdlc-oleg-ponjevic](https://github.com/Ouleg/agentic-sdlc-oleg-ponjevic) | — | ⬜ Not started | — |
 | 3 | @SrdjanV375 | [agentic-sdlc-srdjan-vujadinovic](https://github.com/SrdjanV375/agentic-sdlc-srdjan-vujadinovic) | — | ⬜ Not started | — |
-| 4 | @Tornado200 | [agentic-sdlc-nemanja-vucic](https://github.com/Tornado200/agentic-sdlc-nemanja-vucic) | — | ⬜ Not started | — |
+| 4 | @Tornado200 | [agentic-sdlc-nemanja-vucic](https://github.com/Tornado200/agentic-sdlc-nemanja-vucic) | [#10](https://github.com/Tornado200/agentic-sdlc-nemanja-vucic/pull/10) | 🟡 Open | — |
 | 5 | @an1raM | [agentic-sdlc-marina-todorovic](https://github.com/an1raM/agentic-sdlc-marina-todorovic) | — | ⬜ Not started | — |
 | 6 | @bagi002 | [agentic-sdlc-blagoje-milosevic](https://github.com/bagi002/agentic-sdlc-blagoje-milosevic) | — | ⬜ Not started | — |
 | 7 | @bosniciva | [agentic-sdlc-iva-bosnic](https://github.com/bosniciva/agentic-sdlc-iva-bosnic) | — | ⬜ Not started | — |

@@ -6,7 +6,7 @@
 | 2 | @Ouleg | [agentic-sdlc-oleg-ponjevic](https://github.com/Ouleg/agentic-sdlc-oleg-ponjevic) | [#7](https://github.com/Ouleg/agentic-sdlc-oleg-ponjevic/pull/7) | 🟢 Merged | @momokrunic |
 | 3 | @SrdjanV375 | [agentic-sdlc-srdjan-vujadinovic](https://github.com/SrdjanV375/agentic-sdlc-srdjan-vujadinovic) | [#8](https://github.com/SrdjanV375/agentic-sdlc-srdjan-vujadinovic/pull/8) | 🟢 Merged | @momokrunic |
 | 4 | @Tornado200 | [agentic-sdlc-nemanja-vucic](https://github.com/Tornado200/agentic-sdlc-nemanja-vucic) | [#7](https://github.com/Tornado200/agentic-sdlc-nemanja-vucic/pull/7) | 🟢 Merged | @momokrunic |
-| 5 | @an1raM | [agentic-sdlc-marina-todorovic](https://github.com/an1raM/agentic-sdlc-marina-todorovic) | [#7](https://github.com/an1raM/agentic-sdlc-marina-todorovic/pull/7) | 🔴 Changes Requested | @momokrunic |
+| 5 | @an1raM | [agentic-sdlc-marina-todorovic](https://github.com/an1raM/agentic-sdlc-marina-todorovic) | [#7](https://github.com/an1raM/agentic-sdlc-marina-todorovic/pull/7) | 🟢 Merged | @momokrunic |
 | 6 | @bagi002 | [agentic-sdlc-blagoje-milosevic](https://github.com/bagi002/agentic-sdlc-blagoje-milosevic) | [#7](https://github.com/bagi002/agentic-sdlc-blagoje-milosevic/pull/7) | 🟢 Merged | @momokrunic |
 | 7 | @bosniciva | [agentic-sdlc-iva-bosnic](https://github.com/bosniciva/agentic-sdlc-iva-bosnic) | [#7](https://github.com/bosniciva/agentic-sdlc-iva-bosnic/pull/7) | 🟢 Merged | @momokrunic |
 | 8 | @damjanovicteodora36 | [agentic-sdlc-teodora-damjanovic](https://github.com/damjanovicteodora36/agentic-sdlc-teodora-damjanovic) | [#7](https://github.com/damjanovicteodora36/agentic-sdlc-teodora-damjanovic/pull/7) | 🟢 Merged | @momokrunic |
