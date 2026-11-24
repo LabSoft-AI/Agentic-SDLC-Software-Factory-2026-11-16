@@ -2,7 +2,7 @@
 
 | # | Student | Repository | PR | Status | Reviewers |
 |---|---|---|---|---|---|
-| 1 | @Milos341 | [agentic-sdlc-milos-markovic](https://github.com/Milos341/agentic-sdlc-milos-markovic) | [#8](https://github.com/Milos341/agentic-sdlc-milos-markovic/pull/8) | ✅ Approved | @momokrunic |
+| 1 | @Milos341 | [agentic-sdlc-milos-markovic](https://github.com/Milos341/agentic-sdlc-milos-markovic) | [#8](https://github.com/Milos341/agentic-sdlc-milos-markovic/pull/8) | 🟢 Merged | @momokrunic |
 | 2 | @Ouleg | [agentic-sdlc-oleg-ponjevic](https://github.com/Ouleg/agentic-sdlc-oleg-ponjevic) | [#10](https://github.com/Ouleg/agentic-sdlc-oleg-ponjevic/pull/10) | 🟢 Merged | @momokrunic |
 | 3 | @SrdjanV375 | [agentic-sdlc-srdjan-vujadinovic](https://github.com/SrdjanV375/agentic-sdlc-srdjan-vujadinovic) | [#9](https://github.com/SrdjanV375/agentic-sdlc-srdjan-vujadinovic/pull/9) | 🟢 Merged | @momokrunic |
 | 4 | @Tornado200 | [agentic-sdlc-nemanja-vucic](https://github.com/Tornado200/agentic-sdlc-nemanja-vucic) | [#8](https://github.com/Tornado200/agentic-sdlc-nemanja-vucic/pull/8) | 🟢 Merged | @momokrunic |

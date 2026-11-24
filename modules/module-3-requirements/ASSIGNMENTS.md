@@ -9,7 +9,7 @@
 | 5 | @an1raM | [agentic-sdlc-marina-todorovic](https://github.com/an1raM/agentic-sdlc-marina-todorovic) | — | ⬜ Not started | — |
 | 6 | @bagi002 | [agentic-sdlc-blagoje-milosevic](https://github.com/bagi002/agentic-sdlc-blagoje-milosevic) | — | ⬜ Not started | — |
 | 7 | @bosniciva | [agentic-sdlc-iva-bosnic](https://github.com/bosniciva/agentic-sdlc-iva-bosnic) | — | ⬜ Not started | — |
-| 8 | @damjanovicteodora36 | [agentic-sdlc-teodora-damjanovic](https://github.com/damjanovicteodora36/agentic-sdlc-teodora-damjanovic) | [#10](https://github.com/damjanovicteodora36/agentic-sdlc-teodora-damjanovic/pull/10) | 🟡 Open | — |
+| 8 | @damjanovicteodora36 | [agentic-sdlc-teodora-damjanovic](https://github.com/damjanovicteodora36/agentic-sdlc-teodora-damjanovic) | [#10](https://github.com/damjanovicteodora36/agentic-sdlc-teodora-damjanovic/pull/10) | ✅ Approved | @momokrunic |
 | 9 | @lukatodor | [agentic-sdlc-luka-todor](https://github.com/lukatodor/agentic-sdlc-luka-todor) | — | ⬜ Not started | — |
 | 10 | @marija072 | [agentic-sdlc-marija-poznic](https://github.com/marija072/agentic-sdlc-marija-poznic) | — | ⬜ Not started | — |
 | 11 | @milicarad03 | [agentic-sdlc-milica-radivojevic](https://github.com/milicarad03/agentic-sdlc-milica-radivojevic) | [#9](https://github.com/milicarad03/agentic-sdlc-milica-radivojevic/pull/9) | ✅ Approved | @momokrunic |
