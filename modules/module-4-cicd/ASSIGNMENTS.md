@@ -2,8 +2,8 @@
 
 | # | Student | Repository | PR | Status | Reviewers |
 |---|---|---|---|---|---|
-| 1 | @Milos341 | [agentic-sdlc-milos-markovic](https://github.com/Milos341/agentic-sdlc-milos-markovic) | — | ⬜ Not started | — |
-| 2 | @Ouleg | [agentic-sdlc-oleg-ponjevic](https://github.com/Ouleg/agentic-sdlc-oleg-ponjevic) | — | ⬜ Not started | — |
+| 1 | @Milos341 | [agentic-sdlc-milos-markovic](https://github.com/Milos341/agentic-sdlc-milos-markovic) | [#10](https://github.com/Milos341/agentic-sdlc-milos-markovic/pull/10) | ✅ Approved | @momokrunic |
+| 2 | @Ouleg | [agentic-sdlc-oleg-ponjevic](https://github.com/Ouleg/agentic-sdlc-oleg-ponjevic) | [#16](https://github.com/Ouleg/agentic-sdlc-oleg-ponjevic/pull/16) | ✅ Approved | @momokrunic |
 | 3 | @SrdjanV375 | [agentic-sdlc-srdjan-vujadinovic](https://github.com/SrdjanV375/agentic-sdlc-srdjan-vujadinovic) | — | ⬜ Not started | — |
 | 4 | @Tornado200 | [agentic-sdlc-nemanja-vucic](https://github.com/Tornado200/agentic-sdlc-nemanja-vucic) | [#11](https://github.com/Tornado200/agentic-sdlc-nemanja-vucic/pull/11) | ✅ Approved | @momokrunic |
 | 5 | @an1raM | [agentic-sdlc-marina-todorovic](https://github.com/an1raM/agentic-sdlc-marina-todorovic) | — | ⬜ Not started | — |
@@ -20,6 +20,6 @@
 | 16 | @relunaria | [agentic-sdlc-arina-osinnikova](https://github.com/relunaria/agentic-sdlc-arina-osinnikova) | — | ⬜ Not started | — |
 | 17 | @resetarp | [agentic-sdlc-petar-resetar](https://github.com/resetarp/agentic-sdlc-petar-resetar) | — | ⬜ Not started | — |
 | 18 | @vasicka | [agentic-sdlc-isidora-vasic](https://github.com/vasicka/agentic-sdlc-isidora-vasic) | [#12](https://github.com/vasicka/agentic-sdlc-isidora-vasic/pull/12) | 🟢 Merged | @momokrunic |
-| 19 | @vitomirmalinovic | [agentic-sdlc-vitomir-malinovic](https://github.com/vitomirmalinovic/agentic-sdlc-vitomir-malinovic) | — | ⬜ Not started | — |
+| 19 | @vitomirmalinovic | [agentic-sdlc-vitomir-malinovic](https://github.com/vitomirmalinovic/agentic-sdlc-vitomir-malinovic) | [#9](https://github.com/vitomirmalinovic/agentic-sdlc-vitomir-malinovic/pull/9) | ✅ Approved | @momokrunic |
 
 Legend: 🟢 Merged | ✅ Approved | 🟡 Open | 🔴 Changes Requested | ⬜ Not started
