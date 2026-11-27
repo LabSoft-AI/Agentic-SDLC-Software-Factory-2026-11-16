@@ -305,6 +305,10 @@ at [starter/requirements-agent.json](starter/requirements-agent.json).
 > Start OpenCode and pick `requirements-agent` with `/agents`. The task and
 > rules below are the same. See the
 > [OpenCode harness guide](../../docs/opencode.md).
+>
+> **Using Pi?** Turn the same prompt into a `requirements-agent` preset in
+> `.pi/presets.json` and start it with `pi --preset requirements-agent`. See the
+> [Pi harness guide](../../docs/pi.md).
 
 The agent must:
 

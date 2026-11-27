@@ -399,7 +399,8 @@ create a GitHub Issue for building your first agent.
   ```
 
 - **An agent harness** installed (pick one):
-  - Kiro CLI: see https://kiro.dev
+  - Kiro CLI: `curl -fsSL https://cli.kiro.dev/install | bash`; see [Kiro harness guide](../../docs/kiro.md)
+  - Pi: Node 24 + `npm install -g --ignore-scripts @earendil-works/pi-coding-agent@1.0.4`; see [Pi harness guide](../../docs/pi.md)
   - OpenCode: `curl -fsSL https://opencode.ai/v2/install | bash`; see [OpenCode harness guide](../../docs/opencode.md)
 
 ### Step 1: Create a GitHub Account
@@ -644,6 +645,10 @@ in the issue from Part 1. See
 > `cp modules/module-1-git/starter/git-agent.md .opencode/agents/`
 > Start OpenCode and pick `git-agent` with `/agents`. The task and rules below
 > are the same. See the [OpenCode harness guide](../../docs/opencode.md).
+>
+> **Using Pi?** Turn the same prompt into a `git-agent` preset in
+> `.pi/presets.json` and start it with `pi --preset git-agent` (or
+> `/preset git-agent`). See the [Pi harness guide](../../docs/pi.md).
 
 The agent must be able to:
 
@@ -768,5 +773,8 @@ After merge, verify:
 - [Pre-commit Framework](https://pre-commit.com/)
 - [GitHub CLI Manual](https://cli.github.com/manual/)
 - [Kiro CLI](https://kiro.dev)
+- [Kiro harness guide](../../docs/kiro.md)
+- [Pi](https://pi.dev)
+- [Pi harness guide](../../docs/pi.md)
 - [OpenCode](https://opencode.ai/docs/)
 - [OpenCode harness guide](../../docs/opencode.md)

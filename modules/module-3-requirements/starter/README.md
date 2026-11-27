@@ -1,6 +1,6 @@
 # Module 3 Starter: Requirements Agent
 
-Starter agent configuration for Module 3, for Kiro CLI or OpenCode.
+Starter agent configuration for Module 3, for Kiro CLI, Pi, or OpenCode.
 
 ## Setup
 
@@ -18,6 +18,15 @@ mkdir -p /path/to/your-repo/.opencode/agents
 cp requirements-agent.md /path/to/your-repo/.opencode/agents/
 opencode        # then pick requirements-agent with /agents
 ```
+
+Pi:
+
+```bash
+# Add a requirements-agent preset to .pi/presets.json from the JSON prompt
+pi --preset requirements-agent
+```
+
+See the [Pi harness guide](../../../docs/pi.md) for the preset format.
 
 ## What to Complete
 

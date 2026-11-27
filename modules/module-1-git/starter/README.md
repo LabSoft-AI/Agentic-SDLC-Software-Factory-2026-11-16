@@ -1,6 +1,6 @@
 # Git Agent Starter
 
-Starter agent configuration for Module 1, for Kiro CLI or OpenCode.
+Starter agent configuration for Module 1, for Kiro CLI, Pi, or OpenCode.
 
 ## Usage
 
@@ -21,6 +21,15 @@ mkdir -p .opencode/agents
 cp modules/module-1-git/starter/git-agent.md .opencode/agents/
 opencode        # then pick git-agent with /agents
 ```
+
+Pi:
+
+```bash
+# Add a git-agent preset to .pi/presets.json from the prompt in git-agent.json
+pi --preset git-agent        # or /preset git-agent inside Pi
+```
+
+See the [Pi harness guide](../../../docs/pi.md) for the preset format.
 
 ## What You Need to Complete
 

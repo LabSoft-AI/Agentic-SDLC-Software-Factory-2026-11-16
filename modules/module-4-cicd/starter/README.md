@@ -1,6 +1,6 @@
 # Module 4 Starter: CI/CD Agent
 
-Starter agent configuration for Module 4, for Kiro CLI or OpenCode.
+Starter agent configuration for Module 4, for Kiro CLI, Pi, or OpenCode.
 
 ## Setup
 
@@ -18,6 +18,15 @@ mkdir -p /path/to/your-repo/.opencode/agents
 cp cicd-agent.md /path/to/your-repo/.opencode/agents/
 opencode        # then pick cicd-agent with /agents
 ```
+
+Pi:
+
+```bash
+# Add a cicd-agent preset to .pi/presets.json from the JSON prompt
+pi --preset cicd-agent
+```
+
+See the [Pi harness guide](../../../docs/pi.md) for the preset format.
 
 ## What to Complete
 

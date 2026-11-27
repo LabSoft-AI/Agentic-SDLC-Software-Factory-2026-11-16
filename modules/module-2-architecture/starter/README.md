@@ -1,6 +1,6 @@
 # Architecture Agent Starter
 
-Starter agent configuration for Module 2, for Kiro CLI or OpenCode.
+Starter agent configuration for Module 2, for Kiro CLI, Pi, or OpenCode.
 
 ## Usage
 
@@ -21,6 +21,15 @@ mkdir -p .opencode/agents
 cp modules/module-2-architecture/starter/architecture-agent.md .opencode/agents/
 opencode        # then pick architecture-agent with /agents
 ```
+
+Pi:
+
+```bash
+# Add an architecture-agent preset to .pi/presets.json from the JSON prompt
+pi --preset architecture-agent
+```
+
+See the [Pi harness guide](../../../docs/pi.md) for the preset format.
 
 ## What You Need to Complete
 

@@ -1,6 +1,6 @@
 # Module 5 Starter: TDD/BDD Agent
 
-Starter agent configuration for Module 5, for Kiro CLI or OpenCode.
+Starter agent configuration for Module 5, for Kiro CLI, Pi, or OpenCode.
 
 This is the most complex agent in the course. In Kiro it uses a **file URI
 prompt** (`file://./tdd-bdd-prompt.md`) to keep the prompt in a separate file,
@@ -26,6 +26,15 @@ mkdir -p /path/to/your-repo/.opencode/agents
 cp tdd-bdd-agent.md /path/to/your-repo/.opencode/agents/
 opencode        # then pick tdd-bdd-agent with /agents
 ```
+
+Pi:
+
+```bash
+# Add a tdd-bdd-agent preset to .pi/presets.json, inline tdd-bdd-prompt.md
+pi --preset tdd-bdd-agent
+```
+
+See the [Pi harness guide](../../../docs/pi.md) for the preset format.
 
 ## What to Complete
 

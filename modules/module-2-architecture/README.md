@@ -426,6 +426,10 @@ at [starter/architecture-agent.json](starter/architecture-agent.json).
 > Start OpenCode and pick `architecture-agent` with `/agents`. The task and
 > rules below are the same. See the
 > [OpenCode harness guide](../../docs/opencode.md).
+>
+> **Using Pi?** Turn the same prompt into an `architecture-agent` preset in
+> `.pi/presets.json` and start it with `pi --preset architecture-agent`. See the
+> [Pi harness guide](../../docs/pi.md).
 
 The agent must:
 

@@ -56,14 +56,24 @@ echo "🤖 Checking agent harnesses..."
 if command -v kiro-cli >/dev/null 2>&1; then
     echo "✅ Kiro CLI found ($(kiro-cli --version 2>/dev/null | head -1))"
 else
-    echo "ℹ️  Kiro CLI not found. Install: https://kiro.dev"
+    echo "ℹ️  Kiro CLI not found. Install: curl -fsSL https://cli.kiro.dev/install | bash"
 fi
 if command -v opencode >/dev/null 2>&1; then
     echo "✅ OpenCode found ($(opencode --version 2>/dev/null | head -1))"
 else
     echo "ℹ️  OpenCode not found. Install: curl -fsSL https://opencode.ai/v2/install | bash"
 fi
-echo "   You need at least one harness. See docs/opencode.md for the OpenCode path."
+if command -v pi >/dev/null 2>&1; then
+    PI_VERSION="$(pi --version 2>/dev/null | head -1 || true)"
+    if [ -n "$PI_VERSION" ]; then
+        echo "✅ Pi found ($PI_VERSION)"
+    else
+        echo "⚠️  Pi found but not runnable with $(node --version). Pi needs Node 24 (nvm use 24)."
+    fi
+else
+    echo "ℹ️  Pi not found. Install: npm install -g --ignore-scripts @earendil-works/pi-coding-agent@1.0.4 (Node 24)"
+fi
+echo "   You need at least one harness. See docs/kiro.md, docs/pi.md, or docs/opencode.md for the harness paths."
 
 echo ""
 echo "✅ Setup complete!"

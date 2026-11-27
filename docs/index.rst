@@ -33,5 +33,7 @@ those agents together to build a real application.
    :maxdepth: 2
    :caption: Resources
 
+   kiro
+   pi
    opencode
    tracker
