@@ -292,6 +292,7 @@ destination.
 
 ## References
 
+- [Documentation as Code in Automotive System/Software Engineering (Krunic, 2023)](https://eejournal.ktu.lt/index.php/elt/article/view/33843)
 - [Harness Engineering (Fowler)](https://martinfowler.com/articles/harness-engineering.html)
 - [Context Engineering (Fowler)](https://martinfowler.com/articles/exploring-gen-ai/context-engineering-coding-agents.html)
 - [Spec-Driven Development (Fowler)](https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html)
@@ -300,6 +301,11 @@ destination.
 - [Stop Hand-Holding Your Coding Agent: Engineering the Loops that Replace Step-by-Step Prompting (arXiv 2607.00038)](https://arxiv.org/abs/2607.00038)
 - [What Is an Agentic Software Factory? (Sonar)](https://www.sonarsource.com/resources/library/what-is-an-agentic-software-factory/)
 - [Architecting an Autonomous Software Factory: End-to-End Agentic Delivery (Google codelab)](https://codelabs.developers.google.com/codelabs/software-factory-end-to-end)
+- [arc42 Template](https://arc42.org/overview)
+- [C4 Model](https://c4model.com/)
+- [Conventional Commits](https://www.conventionalcommits.org/)
+- [Pre-commit Framework](https://pre-commit.com/)
+- [Coding Dojo Kata Catalogue](https://codingdojo.org/kata/)
 - [Kiro CLI](https://kiro.dev/docs/cli/)
 - [Pi](https://pi.dev)
 - [OpenCode](https://opencode.ai/docs/)
