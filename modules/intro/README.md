@@ -115,8 +115,9 @@ configure the same three things:
 
 The file format differs. Kiro uses an agent JSON config, Pi uses a preset, and
 OpenCode uses a Markdown file in `.opencode/agents/`. The context engineering is
-the same. The [OpenCode harness guide](../../docs/opencode.md) covers the
-mapping in detail.
+the same. The [Kiro harness guide](../../docs/kiro.md),
+[Pi harness guide](../../docs/pi.md), and
+[OpenCode harness guide](../../docs/opencode.md) cover each format in detail.
 
 A vague system prompt produces vague results. A precise prompt with
 templates and examples produces precise results.

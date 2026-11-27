@@ -366,6 +366,10 @@ Create `.kiro/agents/tdd-bdd-agent.json` using the starter template at
 > Start OpenCode and pick `tdd-bdd-agent` with `/agents`. The task and rules
 > below are the same. See the
 > [OpenCode harness guide](../../docs/opencode.md).
+>
+> **Using Pi?** Turn the same prompt into a `tdd-bdd-agent` preset in
+> `.pi/presets.json` and start it with `pi --preset tdd-bdd-agent`. See the
+> [Pi harness guide](../../docs/pi.md).
 
 The agent must follow this strict cycle for each scenario:
 
@@ -428,6 +432,12 @@ Example hook to run tests after every file write:
 > pytest command in the prompt, or add an OpenCode plugin / git pre-commit hook.
 > The `tdd-bdd-agent.md` starter already does this. See the
 > [OpenCode harness guide](../../docs/opencode.md).
+>
+> **Pi equivalent:** tools go in the preset's `tools`, resources are named in
+> the prompt (or `resourceGlobs` with the World extension), and the public
+> preset extension has no `postToolUse` hook. Put the pytest command in the
+> prompt or a git pre-commit hook. See the
+> [Pi harness guide](../../docs/pi.md).
 
 ### Step 3: Use the Agent
 
@@ -548,5 +558,7 @@ gh pr merge --squash
 - [Kiro CLI Agent Creation](https://kiro.dev/docs/cli/custom-agents/creating/)
 - [OpenCode agents](https://opencode.ai/docs/agents/)
 - [OpenCode harness guide](../../docs/opencode.md)
+- [Pi](https://pi.dev)
+- [Pi harness guide](../../docs/pi.md)
 - [Kiro CLI Agent Configuration Reference](https://kiro.dev/docs/cli/custom-agents/configuration-reference/)
 - [Coding Dojo Kata Catalogue](https://codingdojo.org/kata/)

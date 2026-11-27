@@ -380,6 +380,10 @@ Create `.kiro/agents/cicd-agent.json` using the starter template at
 > `cp modules/module-4-cicd/starter/cicd-agent.md .opencode/agents/`
 > Start OpenCode and pick `cicd-agent` with `/agents`. The task and rules below
 > are the same. See the [OpenCode harness guide](../../docs/opencode.md).
+>
+> **Using Pi?** Turn the same prompt into a `cicd-agent` preset in
+> `.pi/presets.json` and start it with `pi --preset cicd-agent`. See the
+> [Pi harness guide](../../docs/pi.md).
 
 The agent must:
 
